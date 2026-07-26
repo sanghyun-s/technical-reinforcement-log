@@ -49,7 +49,7 @@ Roadmap and ranking in [ROADMAP.md](./ROADMAP.md). Target: Tier A + B before fal
 | Course | Tier | Status |
 |---|---|---|
 | Intermediate Python for Developers | A | ✅ Complete |
-| Data Structures & Algorithms in Python | A | In progress |
+| Data Structures & Algorithms in Python | A | ✅ Complete |
 | Object-Oriented Programming in Python | A | Not started |
 | Introduction to Testing in Python | A | Not started |
 | Working with the OpenAI API | B | Not started |

@@ -23,7 +23,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 |---|---|
 | **Prior archive** | ~100 problems (98 files) · 💯 milestone Jun 2026 · now the re-drill library |
 | **New in this repo** | 4 problems + re-drills, since Jul 2026 |
-| **DataCamp** | 1 complete · 1 in progress · 13 planned |
+| **DataCamp** | 2 complete · 13 planned |
 | **Interview bank** | 6 defensible lines · 3 in progress |
 | **Tracks** | LeetCode (new + re-drill) · DataCamp · YouTube · app-code reading |
 
@@ -37,7 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
-| 2026-07-22 | 4 | 2 | 2 | 1 | 3 |
+| 2026-07-22 | 5 | 2 | 2 | 2 | 4 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 3 |
 
 ---
@@ -48,11 +48,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
+| 07-26 | DataCamp | DSA — Ch 4: bubble/selection/merge/quicksort (**course complete**) | Course-Guided |
 | 07-26 | LeetCode | LC 2974 Minimum Number Game | Reference Recall |
-| 07-25 | DataCamp | DSA — Ch 2–4: queues, trees, graphs, recursion, binary search, BFS | Course-Guided |
+| 07-25 | DataCamp | DSA — Ch 2–3: queues, trees, graphs, recursion, binary search, BFS | Course-Guided |
 | 07-24 | LeetCode | LC 360 Sort Transformed Array | First-Pass Assisted |
 | 07-21 | LeetCode | LC 0001 Two Sum (re-drill) | Pattern Re-Drill |
-| 07-21 | LeetCode | LC 0014 Longest Common Prefix | Reference Recall |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---
