@@ -3,55 +3,112 @@
 **Sang-Hyun Seong** · M.S. Business Analytics, Baruch College (Zicklin) · Expected May 2027
 Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
+> Repetition-based reinforcement of the code fluency behind an AI-assisted portfolio.
+> Not an unaided-rate scoreboard — a record of returning to patterns and rebuilding them.
+
+<p align="center">
+  <a href="./WEEKLY-LOG.md"><img src="https://img.shields.io/badge/Weekly%20Log-1f6feb?style=for-the-badge" alt="Weekly Log"></a>
+  <a href="./RE-DRILL-LOG.md"><img src="https://img.shields.io/badge/Re--Drill%20Log-fb8500?style=for-the-badge" alt="Re-Drill Log"></a>
+  <a href="./LEARNING-DASHBOARD.md"><img src="https://img.shields.io/badge/Dashboard-2a9d8f?style=for-the-badge" alt="Learning Dashboard"></a>
+  <a href="./INTERVIEW-SENTENCES.md"><img src="https://img.shields.io/badge/Interview%20Bank-6f42c1?style=for-the-badge" alt="Interview Bank"></a>
+  <a href="./leetcode/archive/ARCHIVE-LOG.md"><img src="https://img.shields.io/badge/Prior%20100%20Archive-6c757d?style=for-the-badge" alt="Prior 100 Archive"></a>
+  <a href="https://github.com/sanghyun-s/leetcode-study/tree/main"><img src="https://img.shields.io/badge/Original%20LeetCode%20Log-181717?style=for-the-badge&logo=github&logoColor=white" alt="Original LeetCode Log"></a>
+</p>
+
 ---
 
-## Current Reinforcement Snapshot
+## 📊 Snapshot
 
-| Area | Current focus | Recent evidence |
-|---|---|---|
-| **LeetCode — new** | 2–5 problems, difficulty-agnostic | LC 360 Sort Transformed Array, LC 2974 Minimum Number Game |
-| **LeetCode — re-drill** | Rebuilding prior problems with less help | Two Sum rebuilt from memory; 98-problem archive in rotation |
-| **DataCamp** | Python fundamentals → own-codebase fluency | Intermediate Python (done); DSA in progress |
-| **Repetition** | Next-day recall of guided solves | Re-implementing 3925 / 1165 / 360 without looking |
-| **Interview defense** | Weakness answer as a strength | Code-fluency narrative + AI-assisted portfolio honesty |
+| | |
+|---|---|
+| **Prior archive** | ~100 problems (98 files) · 💯 milestone Jun 2026 · now the re-drill library |
+| **New in this repo** | 4 problems + re-drills, since Jul 2026 |
+| **DataCamp** | 1 complete · 1 in progress · 13 planned |
+| **Interview bank** | 6 defensible lines · 3 in progress |
+| **Tracks** | LeetCode (new + re-drill) · DataCamp · YouTube · app-code reading |
 
-**Latest week →** [WEEKLY-LOG.md](./WEEKLY-LOG.md) · **Repetition →** [RE-DRILL-LOG.md](./RE-DRILL-LOG.md)
-· **Cumulative →** [LEARNING-DASHBOARD.md](./LEARNING-DASHBOARD.md) · **Interview bank →** [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md)
+*Full detail: [WEEKLY-LOG](./WEEKLY-LOG.md) · [RE-DRILL-LOG](./RE-DRILL-LOG.md) · [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md) · [INTERVIEW-SENTENCES](./INTERVIEW-SENTENCES.md)*
+
+---
+
+## 🗓️ Weekly progress
+
+*Rollup — full rows in [WEEKLY-LOG.md](./WEEKLY-LOG.md).*
+
+| Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
+|---|---:|---:|---:|---:|---:|
+| 2026-07-22 | 4 | 2 | 2 | 1 | 3 |
+| 2026-07-15 | 2 | 2 | 0 | 2 | 3 |
+
+---
+
+## ⚡ Latest push (LeetCode + DataCamp)
+
+*Most recent activity — full log in [WEEKLY-LOG.md](./WEEKLY-LOG.md).*
+
+| Date | Track | Activity | Mode |
+|---|---|---|---|
+| 07-26 | LeetCode | LC 2974 Minimum Number Game | Reference Recall |
+| 07-25 | DataCamp | DSA — Ch 2–4: queues, trees, graphs, recursion, binary search, BFS | Course-Guided |
+| 07-24 | LeetCode | LC 360 Sort Transformed Array | First-Pass Assisted |
+| 07-21 | LeetCode | LC 0001 Two Sum (re-drill) | Pattern Re-Drill |
+| 07-21 | LeetCode | LC 0014 Longest Common Prefix | Reference Recall |
+| 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
+
+---
+
+## 🎯 Interview takeaways
+
+*Top defensible lines — full bank (6 defensible, 3 "not yet") in [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md).*
+
+| Line | Defends |
+|---|---|
+| I don't claim I'm improving — I measure it: solve mode per problem + a spaced-repetition retention log I can show. | The §4 weakness question (turns it into a strength) |
+| Precompute a value→index dict for O(1) complement lookup, checking before storing so I never reuse an element. | Hash map · Python fluency |
+| A parabola's extremes sit at a sorted array's ends, so I sort in O(n) with two pointers converging inward. | Two pointers · complexity reasoning |
+| Counting sort is faster on paper, but only with bounded values — for this input a plain sort is clearer and robust. | Engineering judgment |
+| I built a stack and both binary searches by hand, so I can justify Big O from the data structure up, not memorize it. | DSA fundamentals |
+
+---
+
+## 🧩 Archive coverage — prior ~100
+
+*Pattern families from the [baseline archive](./leetcode/archive/). Full day-by-day milestone
+record: [ARCHIVE-LOG.md](./leetcode/archive/ARCHIVE-LOG.md) · cheat sheet:
+[PATTERNS-CHEATSHEET.md](./leetcode/archive/PATTERNS-CHEATSHEET.md).*
+
+| Family | ~Count | | Family | ~Count |
+|---|---:|---|---|---:|
+| Hash Map / Set / Table | 12 | | Math (collapse, Frobenius, Catalan…) | 6 |
+| Sorting (+ counting sort) | 11 | | Strings | 5 |
+| Trees (DFS ×5 · BFS ×2 · mirror · N-ary) | 11 | | Two Pointers | 5 |
+| SQL (7 sub-patterns) | 10 | | Bit Manipulation | 5 |
+| Greedy | 9 | | Matrix | 4 |
+| Dynamic Programming (7 sub-patterns) | 8 | | Simulation | 4 |
+| Prefix Sum · Linked List | 3 · 3 | | Backtracking · Binary Search · Graph | 2 · 1 · 1 |
+
+**Re-drill priority (largest / rustiest first):** Trees · Two Pointers · SQL · DP.
 
 ---
 
 ## What this repo is
 
-This repo is **not an unaided-rate scoreboard.** It is a **repetition-based technical
-reinforcement log.** I built my accounting-AI portfolio with heavy AI coding support, and
-this repo records how I strengthen the code fluency behind that portfolio — through repeated
-implementation, next-day recall, course-guided coding, pattern re-drills, and interview-ready
-explanations.
-
-The key evidence is not whether every first attempt was cold. It is whether I can **return to
-a pattern, rebuild it with less help, explain the trade-off, and connect it to my portfolio
-work.**
-
----
+This repo is **not an unaided-rate scoreboard.** It records how I strengthen the code fluency
+behind my AI-assisted portfolio — through repeated implementation, next-day recall,
+course-guided coding, pattern re-drills, and interview-ready explanations. The key evidence is
+whether I can **return to a pattern, rebuild it with less help, explain the trade-off, and
+connect it to my portfolio work.**
 
 ## Repetition-first rule
 
-My mentor's instruction is simple: **understand the solution first — even with AI, hints, or a
-worked answer — then return the next day and rebuild it with less help.** Difficulty doesn't
-matter; consistency and momentum do.
-
-So a first-pass assisted solve is not a weakness. It becomes evidence when it leads to:
-1. next-day recall,
-2. pattern re-drill from the archive,
-3. a cleaner re-implementation,
-4. an explanation I can defend in an interview.
-
----
+My mentor's instruction: **understand the solution first — even with AI, hints, or a worked
+answer — then return the next day and rebuild it with less help.** Difficulty doesn't matter;
+consistency and momentum do. A first-pass assisted solve becomes evidence when it leads to
+next-day recall → pattern re-drill → a cleaner re-implementation → a defensible explanation.
 
 ## How work is labeled
 
-Solve Mode is an **honesty marker, not a grade.** No mode is "second-class" — they're
-different kinds of evidence.
+Solve Mode is an **honesty marker, not a grade.** No mode is second-class.
 
 | Mode | Meaning |
 |---|---|
@@ -63,22 +120,14 @@ different kinds of evidence.
 | **Pattern Re-Drill** | Repeated a prior-archive problem to keep a pattern sharp |
 | **Transcribed** | Copied to learn. Logged honestly, never inflated as evidence |
 
-Cold solves still matter and I keep 1–2 a week — but they are one kind of evidence among
-several, not the throne.
+Cold solves still matter (1–2/week) — one kind of evidence among several, not the throne.
 
----
+## Baseline archive: prior ~100 LeetCode problems
 
-## Baseline archive: prior 98 LeetCode problems
-
-Before this repo I completed ~100 LeetCode problems with AI assistance and detailed notes,
-archived in [`leetcode-study`](https://github.com/sanghyun-s/leetcode-study) and mirrored here
-under [`leetcode/archive/`](./leetcode/archive/).
-
-I don't treat that archive as pure independent evidence — I treat it as my **re-drill
-library.** Spaced repetition, next-day recall, and pattern reinforcement all run on it. That's
-a more honest and more mature framing than either hiding it or overclaiming it.
-
----
+Completed with AI assistance and detailed notes ([`leetcode-study`](https://github.com/sanghyun-s/leetcode-study),
+mirrored under [`leetcode/archive/`](./leetcode/archive/)). Not pure independent evidence —
+my **re-drill library.** Spaced repetition and next-day recall run on it. A more honest framing
+than hiding it or overclaiming it.
 
 ## Structure
 
@@ -86,15 +135,13 @@ Root markdown = what I'm doing (public-facing). Folders = detailed backing files
 
 ```
 technical-reinforcement-log/
-├── README.md                 ← this file: snapshot + rules
-├── WEEKLY-LOG.md             ← main stage: recent activity, all tracks
-├── RE-DRILL-LOG.md           ← repetition & next-day recall evidence
-├── LEARNING-DASHBOARD.md     ← cumulative pattern coverage + course progress
-├── INTERVIEW-SENTENCES.md    ← polished, defensible interview lines
+├── README.md                 ← snapshot + dashboards (this file)
+├── WEEKLY-LOG.md             ← main activity stream, all tracks
+├── RE-DRILL-LOG.md           ← repetition & next-day recall
+├── LEARNING-DASHBOARD.md     ← cumulative pattern coverage + courses
+├── INTERVIEW-SENTENCES.md    ← polished, defensible lines
 ├── leetcode/
-│   ├── archive/              ← prior 98 (re-drill library: easy/medium/hard)
-│   └── problems/             ← new problems worked in this repo
-├── datacamp/courses/         ← course notes
-├── youtube/videos/           ← video notes
-└── sessions/                 ← optional long-form reflections (archive, not the interface)
+│   ├── archive/              ← prior ~100 + ARCHIVE-LOG.md + cheat sheet (re-drill library)
+│   └── problems/             ← new problems worked here
+├── datacamp/courses/         · youtube/videos/         · sessions/ (optional long-form)
 ```
