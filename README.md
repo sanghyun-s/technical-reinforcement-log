@@ -5,105 +5,96 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 ---
 
-## Why this repo exists
+## Current Reinforcement Snapshot
 
-I built my portfolio applications with heavy support from AI coding tools. I owned the
-accounting logic, product direction, testing scenarios, and business framing. After
-completing the apps, I identified my largest development gap honestly:
+| Area | Current focus | Recent evidence |
+|---|---|---|
+| **LeetCode — new** | 2–5 problems, difficulty-agnostic | LC 360 Sort Transformed Array, LC 2974 Minimum Number Game |
+| **LeetCode — re-drill** | Rebuilding prior problems with less help | Two Sum rebuilt from memory; 98-problem archive in rotation |
+| **DataCamp** | Python fundamentals → own-codebase fluency | Intermediate Python (done); DSA in progress |
+| **Repetition** | Next-day recall of guided solves | Re-implementing 3925 / 1165 / 360 without looking |
+| **Interview defense** | Weakness answer as a strength | Code-fluency narrative + AI-assisted portfolio honesty |
 
-> **Independent code fluency** — the ability to read, write, debug, and extend code
-> without AI assistance.
-
-This repo is the execution record of the plan I built to close that gap. It is not a
-certificate collection. Every entry in it ends with a sentence I can say in an interview.
-
-**Weakness → diagnosis → plan → execution → job connection.** This repo is the *execution*
-column, made auditable.
+**Latest week →** [WEEKLY-LOG.md](./WEEKLY-LOG.md) · **Repetition →** [RE-DRILL-LOG.md](./RE-DRILL-LOG.md)
+· **Cumulative →** [LEARNING-DASHBOARD.md](./LEARNING-DASHBOARD.md) · **Interview bank →** [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md)
 
 ---
 
-## The honesty mechanism
+## What this repo is
 
-Every LeetCode entry records a **Solve Mode**:
+This repo is **not an unaided-rate scoreboard.** It is a **repetition-based technical
+reinforcement log.** I built my accounting-AI portfolio with heavy AI coding support, and
+this repo records how I strengthen the code fluency behind that portfolio — through repeated
+implementation, next-day recall, course-guided coding, pattern re-drills, and interview-ready
+explanations.
+
+The key evidence is not whether every first attempt was cold. It is whether I can **return to
+a pattern, rebuild it with less help, explain the trade-off, and connect it to my portfolio
+work.**
+
+---
+
+## Repetition-first rule
+
+My mentor's instruction is simple: **understand the solution first — even with AI, hints, or a
+worked answer — then return the next day and rebuild it with less help.** Difficulty doesn't
+matter; consistency and momentum do.
+
+So a first-pass assisted solve is not a weakness. It becomes evidence when it leads to:
+1. next-day recall,
+2. pattern re-drill from the archive,
+3. a cleaner re-implementation,
+4. an explanation I can defend in an interview.
+
+---
+
+## How work is labeled
+
+Solve Mode is an **honesty marker, not a grade.** No mode is "second-class" — they're
+different kinds of evidence.
 
 | Mode | Meaning |
 |---|---|
-| `unaided` | Wrote it cold. No reference, no AI, no prior solution open. |
-| `reference` | Consulted my own earlier notes or docs, but assembled the logic myself. |
-| `guided` | Had the pattern and construct list explained before writing. Solution still written by me. |
-| `transcribed` | Copied a worked solution. **Counts as study, not as evidence.** |
+| **First-Pass Assisted** | Understood a new problem using AI / answer / hints / course |
+| **Course-Guided** | Wrote the code myself inside a structured environment (DataCamp) |
+| **Reference Recall** | Rebuilt it myself while referring to my own notes/repo |
+| **Next-Day Recall** | Re-implemented a recent problem without looking |
+| **Cold Solve** | New problem, from a blank page |
+| **Pattern Re-Drill** | Repeated a prior-archive problem to keep a pattern sharp |
+| **Transcribed** | Copied to learn. Logged honestly, never inflated as evidence |
 
-A `guided` solve is always followed by a **cold variant rep** — a near-identical problem
-solved `unaided`, same day or next. The variant is the actual evidence. The first solve is
-just the lesson.
+Cold solves still matter and I keep 1–2 a week — but they are one kind of evidence among
+several, not the throne.
 
-The number that matters in this repo is not the problem count. It is the **unaided rate over
-time**, tracked in [`leetcode/PROGRESS.md`](leetcode/PROGRESS.md).
+---
+
+## Baseline archive: prior 98 LeetCode problems
+
+Before this repo I completed ~100 LeetCode problems with AI assistance and detailed notes,
+archived in [`leetcode-study`](https://github.com/sanghyun-s/leetcode-study) and mirrored here
+under [`leetcode/archive/`](./leetcode/archive/).
+
+I don't treat that archive as pure independent evidence — I treat it as my **re-drill
+library.** Spaced repetition, next-day recall, and pattern reinforcement all run on it. That's
+a more honest and more mature framing than either hiding it or overclaiming it.
 
 ---
 
 ## Structure
 
+Root markdown = what I'm doing (public-facing). Folders = detailed backing files.
+
 ```
 technical-reinforcement-log/
-├── README.md                  ← you are here
-├── INTERVIEW-SENTENCES.md     ← the payoff: every track drains into this file
-├── SETUP.md                   ← git commands for this repo
+├── README.md                 ← this file: snapshot + rules
+├── WEEKLY-LOG.md             ← main stage: recent activity, all tracks
+├── RE-DRILL-LOG.md           ← repetition & next-day recall evidence
+├── LEARNING-DASHBOARD.md     ← cumulative pattern coverage + course progress
+├── INTERVIEW-SENTENCES.md    ← polished, defensible interview lines
 ├── leetcode/
-│   ├── TEMPLATE.md
-│   ├── PROGRESS.md            ← unaided-rate tracking
-│   └── problems/
-├── datacamp/
-│   ├── TEMPLATE.md
-│   └── courses/
-└── youtube/
-    ├── TEMPLATE.md
-    └── videos/
+│   ├── archive/              ← prior 98 (re-drill library: easy/medium/hard)
+│   └── problems/             ← new problems worked in this repo
+├── datacamp/courses/         ← course notes
+├── youtube/videos/           ← video notes
+└── sessions/                 ← optional long-form reflections (archive, not the interface)
 ```
-
-## The three tracks
-
-| Track | Purpose | Output per unit |
-|---|---|---|
-| **LeetCode** | Basic-coding defense. Don't freeze on a fundamentals question. | 1 problem file + solve mode + variant rep |
-| **DataCamp** | Weakness-reinforcement evidence, tied to my own stack. | 1 course file: which interview sentence it defends |
-| **YouTube** | Technical / operational / AI-era developer language. | 1 video file: 3 claims · 2 app links · 1 interview sentence · 3 keywords |
-
-### Scope discipline (LeetCode)
-
-Deliberately narrow. Easy-focused, some Medium. This is not big-tech SWE prep.
-
-`arrays / strings` · `hash map` · `two pointers` · `stack / queue` · `basic recursion` ·
-`sorting` · `binary search` · `simple SQL-style logic`
-
-### Daily ceiling, not a daily quota
-
-- **2–3 problems** on days with a genuinely new pattern (dissection + cold variant takes real time)
-- **4–5 problems** on days that are mostly variant reps and re-drills of the existing 100
-
-If the LeetCode block starts eating the DataCamp block, the YouTube block, or the
-interview-answer block, the number is too high. Study that doesn't convert into a
-defensible answer doesn't count.
-
----
-
-## The governing principle
-
-> Study must not end as study. Videos must not end as videos. App journals must not end as
-> retrospectives. Everything must convert into a defensible answer to an interview question.
-
----
-
-## Status
-
-| Metric | Value | Updated |
-|---|---|---|
-| Problems logged (this repo) | 0 | 2026-07-15 |
-| Unaided rate (last 20) | — | 2026-07-15 |
-| DataCamp courses complete | 0 / 10 | 2026-07-15 |
-| Videos logged | 0 | 2026-07-15 |
-| Interview sentences banked | 0 | 2026-07-15 |
-
-*Prior work: 100 problems completed with AI assistance — archived in
-[`leetcode-study`](https://github.com/sanghyun-s/leetcode-study). Those are the re-drill set,
-not the evidence set.*

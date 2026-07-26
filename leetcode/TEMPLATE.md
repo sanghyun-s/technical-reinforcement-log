@@ -2,88 +2,52 @@
 
 | | |
 |---|---|
-| **Difficulty** | Easy / Medium |
-| **Pattern** | hash map / two pointers / stack / binary search / ... |
+| **Difficulty** | Easy / Medium / Hard |
+| **Family** | hash map / two pointers / sorting / trees / DP / ... |
 | **Date** | YYYY-MM-DD |
-| **Solve Mode** | `unaided` / `reference` / `guided` / `transcribed` |
-| **Time to solve** | ~X min |
+| **Mode** | First-Pass Assisted / Course-Guided / Reference Recall / Next-Day Recall / Cold Solve / Pattern Re-Drill / Transcribed |
 | **Link** | https://leetcode.com/problems/... |
 
 ---
 
 ## 1. Input / Output
-
-**Input:**
 ```
-nums = [2, 7, 11, 15], target = 9
+input  →
+output →
 ```
-
-**Output:**
-```
-[0, 1]
-```
-
-**Constraints that matter:**
-- (e.g. array length ≤ 10^4 → O(n²) is borderline, O(n) is the target)
-- (e.g. exactly one valid answer exists → no need to handle the empty case)
-
----
+Constraints that matter:
+-
 
 ## 2. Data structure used
-
-- (e.g. `dict` mapping value → index)
-- Why this one and not the obvious alternative:
-
----
+- (and why this one, not the obvious alternative)
 
 ## 3. Why this approach works
-
-(2–4 sentences, own words. Not "it iterates through the array" — that's *what* it does.
-*Why* does the invariant hold? What makes the trick valid?)
-
----
+(own words — the invariant / the trick, not a restatement of what the code does)
 
 ## 4. Time / space complexity
-
-| | |
-|---|---|
-| **Time** | O(?) — because ... |
-| **Space** | O(?) — because ... |
-| **Naive approach** | O(?) — and what the improvement costs in space |
+- Time: O(?) — because …
+- Space: O(?) — because …
 
 ---
 
 ## My solution
-
 ```python
-# Written by me. Paste exactly what I submitted, including anything ugly.
+# written by me
 ```
 
----
-
-## What went wrong first
-
-(The bug, the wrong assumption, the edge case I missed. **Do not skip this section** —
-this is the part that transfers to the next problem. If nothing went wrong, say so
-explicitly: that's a signal the problem was too easy.)
+## What tripped me up
+(the bug, the wrong assumption, the idiom I got non-Pythonic. If nothing did, say so.)
 
 ---
 
-## Cold variant rep
-
-*Required if Solve Mode was `guided` or `transcribed`.*
+## Next-day recall
+*The rep that matters. Rebuild this without looking, the next day.*
 
 | | |
 |---|---|
-| **Variant problem** | [NUMBER]. [Title] |
-| **Date** | YYYY-MM-DD |
-| **Solved unaided?** | Yes / No |
-| **Notes** | (Did the pattern actually transfer, or did I only recognize it?) |
-
----
+| **Recall date** | YYYY-MM-DD |
+| **Rebuilt without looking?** | Yes / Partly / Stuck |
+| **Where I got stuck** | (this is the useful data) |
 
 ## Interview sentence
-
-> (One sentence I could say out loud. Not "I solved Two Sum." Something like: "I default to
-> a hash map when a problem asks me to find a pair, because trading O(n) space for O(n) time
-> is almost always the right call at these input sizes.")
+> (one line I could say and defend)
