@@ -3,88 +3,89 @@
 | | |
 |---|---|
 | **Priority** | Tier A · #1 (roadmap) |
-| **Status** | In progress — linked lists, stacks, queues, Big O covered |
+| **Status** | In progress — Chapters 1–4 covered (queues, trees, graphs, recursion, binary search, BFS) |
 | **Started** | 2026-07-19 |
-| **Completed** | — |
+| **Last worked** | 2026-07-25 |
 | **Link** | https://app.datacamp.com/learn/courses/data-structures-and-algorithms-in-python |
 
 ---
 
 ## What this defends
 
-**The gap it closes:**
-The data structures *underneath* the LeetCode patterns. Before this, every stack/queue
-problem cost double — learning the pattern and the structure at the same time. This pays
-that debt down once. Covers 3 of the 8 §5.2 categories directly (stack/queue) and underpins
-a fourth (the hash-map problems lean on the same "what does this structure cost" thinking).
-
-**The app it connects to:** General fluency, not a specific app. This is capability, not
-positioning.
-
-**The Tier 2 question it moves toward Tial 1:**
-> "What's the time complexity of your approach, and why?"
-Big O is now vocabulary I own rather than repeat.
+The data structures *underneath* the LeetCode patterns. Covers stack/queue, trees (DFS/BFS),
+graphs, recursion, and binary search directly — five of the eight §5.2 families, plus the
+Big O vocabulary to explain any of them. This is capability, not positioning: it changes what
+I can build and analyze, not just what I can say about the portfolio.
 
 ---
 
-## Concepts I could not have explained before this course
+## Concepts covered (Ch 2–4)
 
-1. **A linked list stores data without contiguous memory.** Each node holds its value plus a
-   pointer (`next`) to the following node. That's why insertion at the front is cheap — you
-   just repoint `head` — where the same operation on an array shifts every element.
+**Queues**
+- Implemented `PrinterTasks` on top of a `Queue` class — `add_document` enqueues,
+  `print_documents` drains while `has_elements()`.
+- `enqueue`/`dequeue` on a singly linked list with head+tail pointers are both **O(1)** —
+  no shifting, unlike a list-backed queue. Confirmed the Big O myself.
+- Python built-in: `queue.SimpleQueue()` — `.put()` / `.get()`.
 
-2. **The `Node` / `__init__` pattern.** Every node is an object with two attributes: `value`
-   (the data) and `next` (initially `None`). This is my first real contact with classes
-   outside of "Pydantic is a class" — and it's the OOP bridge to roadmap #2.
+**Trees**
+- `TreeNode(data, left, right)` — the fix was storing `left`/`right` into
+  `self.left_child`/`self.right_child`, and passing the child nodes when building the root.
+- BST insert relies on ordering (alphabetical here) to place each node left/right.
 
-3. **Stack = LIFO, and push/pop are both O(1).** `push` creates a node, points its `next` at
-   the current top, then moves `top` to the new node. `pop` reads the top, moves `top` to
-   `top.next`, and returns the value. No shifting, no scanning — that's why the operations
-   are constant time.
+**Graphs**
+- Adjacency via a dict: `{vertex: [neighbors]}`. For a **weighted** graph, store
+  `[target, weight]` pairs instead of bare targets.
+- **BFS** with `queue.SimpleQueue` + a `visited` list: dequeue current, check match, enqueue
+  unvisited neighbors. FIFO is what makes it breadth-first.
 
-4. **The empty-stack guard.** `pop` checks `if self.top is None: return None` before touching
-   anything. Skipping that guard is an `AttributeError` waiting to happen — the same
-   "fail at the boundary" idea from the Intermediate Python error-handling chapter.
+**Recursion**
+- **Fibonacci** — base case `if n <= 1: return n`, then `fibonacci(n-1) + fibonacci(n-2)`.
+  ⚠ Caught my own slip: I first wrote `n * fibonacci(n-1)`, which is *factorial*. The
+  memoized version (`cache[n] = fibonacci(n-1) + fibonacci(n-2)`) was correct — so the plain
+  version was a typo, not a concept gap, but it would fail a trace.
+- **Memoization** — a `cache` list turns exponential naive Fibonacci into linear by storing
+  solved subproblems. First real contact with dynamic-programming thinking.
+- **Towers of Hanoi** — recursive: move n-1 aside, move disk n, move n-1 back. Base guard
+  should be `if num_disks >= 1:` (double-check: `>= 0` prints a spurious disk-0 move).
 
-5. **Big O measures the worst case** — time (how long to run) and space (extra memory). O(1)
-   constant, O(n) linear, and why a single `for` over a list is O(n) while a linked-list
-   head insert is O(1).
-
-6. **Python's `queue.LifoQueue`** exists as a built-in stack, so I don't hand-roll one in
-   practice — but building it by hand once is what makes the built-in legible.
+**Binary search**
+- Iterative: `first`/`last` pointers, `middle = (first+last)//2`, move the bound that can't
+  contain the target. O(log n).
+- Recursive: base case empty list → False; else recurse on `list[:middle]` or
+  `list[middle+1:]`. Elegant, but slicing copies the list each call, so it costs extra space
+  the iterative version doesn't.
 
 ---
 
 ## Direct hits on my own codebase
 
-| Course concept | Where it shows up | What I now understand |
+| Concept | Where it shows up | What I now understand |
 |---|---|---|
-| Big O / worst case | Every "what's the complexity" interview question | I can now name *why* an approach is O(n) vs O(n²), not just assert it |
-| Class / `__init__` / `self` | Pydantic models, FastAPI structure | First real grasp of what instantiation does — bridges to roadmap #2 (OOP) |
-| Stack LIFO | Undo/history-style logic | The mental model for any "last thing first" operation |
+| Big O worst case | Every "complexity?" interview question | Can justify O(1) / O(log n) / O(n), not just assert |
+| Adjacency dict | Any graph-shaped data | The `{key: [neighbors]}` shape is just a dict of lists |
+| Memoization | Any repeated-subproblem computation | Why caching collapses exponential work to linear |
+| Recursion base case | PDF/agent recursion in PREPARE | A missing/wrong base case is how you get infinite recursion |
 
 ---
 
-## Still unclear
+## Still unclear (open — internal note)
 
-Internal note — open-ended, closed by later courses.
-
-- Queue (FIFO) internals — covered lightly; want to rebuild `enqueue`/`dequeue` from scratch.
-- When a linked list beats a Python `list` in real code (vs. just in interview theory).
-- How `self` actually binds — clicks a bit, but roadmap #2 (OOP) is where this closes.
+- BST *delete* (insert + search are solid; delete's three cases aren't yet).
+- DFS iterative with an explicit stack — recursive DFS is clear, the stack version less so.
+- When recursion's clarity is worth its call-stack cost vs. an iterative rewrite.
 
 ---
 
 ## Interview sentence
 
-> I started the DSA course to close the gap under my LeetCode practice — I was learning
-> patterns without understanding the structures beneath them. Building a stack by hand, with
-> O(1) push and pop and an empty-stack guard, is what made Big O concrete instead of
-> memorized.
+> I worked through the DSA course to close the gap under my LeetCode practice — building
+> queues, a BST, a weighted graph, and both binary searches by hand. The payoff is that Big O
+> is now something I can justify from the data structure up, not memorize, and I can explain
+> why an O(1) linked-list enqueue beats a list-backed one.
 
 ---
 
 ## Follow-up keywords
 
-`linked list` · `LIFO / FIFO` · `Big O worst case` · `queue.LifoQueue` · `Node class` ·
-`self / instantiation`
+`BFS / FIFO` · `adjacency list` · `memoization` · `recursion base case` · `binary search O(log n)` · `BST operations`

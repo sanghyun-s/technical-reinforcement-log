@@ -13,15 +13,16 @@ here first, so the most recent week is visible without opening a single folder.
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
 | 07-26 | LeetCode | LC 2974 Minimum Number Game | Reference Recall | New | Sort + pair-swap beats counting-sort here; knowing you *don't* need the fancy tool is the senior signal | Yes |
-| 07-24 | LeetCode | LC 360 Sort Transformed Array | First-Pass Assisted | New | Two-pointer from both ends because a parabola's extremes sit at the array ends | Pending recall |
+| 07-25 | DataCamp | DSA in Python — Ch 2–4: queues, trees, graphs, recursion, binary search, BFS | Course-Guided | New | Built BST + weighted graph + both binary searches by hand; memoization; caught a factorial-for-Fibonacci slip | Yes |
+| 07-24 | LeetCode | LC 360 Sort Transformed Array | First-Pass Assisted | New | Two-pointer from both ends because a parabola's extremes sit at the array ends | Recall owed |
 | 07-21 | LeetCode | LC 0001 Two Sum | Pattern Re-Drill | Yes | Rebuilt hash-map + brute force from memory; check-before-store ordering | Yes |
-| 07-21 | LeetCode | LC 0014 Longest Common Prefix | Reference Recall | Archive | Horizontal-scan shrinking; `startswith` over `find()==0` | Pending recall |
+| 07-21 | LeetCode | LC 0014 Longest Common Prefix | Reference Recall | Archive | Horizontal-scan shrinking; `startswith` over `find()==0` | Recall owed |
 
 ## Week of 2026-07-15
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
-| 07-19 | DataCamp | DSA in Python — linked lists, stacks, queues, Big O | Course-Guided | New | Built a stack by hand; O(1) push/pop; empty-stack guard made Big O concrete | Yes |
+| 07-19 | DataCamp | DSA in Python — Ch 1: linked lists, stacks, queues, Big O | Course-Guided | New | Built a stack by hand; O(1) push/pop; empty-stack guard made Big O concrete | Yes |
 | 07-19 | LeetCode | LC 1165 Single-Row Keyboard | First-Pass Assisted | New | Precompute char→index dict for O(1) repeated lookup (same trade as Two Sum) | Yes |
 | 07-19 | LeetCode | LC 3925 Concatenate Array With Reverse | First-Pass Assisted | New | Slicing/`+` build new lists; in-place reverse is the trap | Yes |
 | 07-17 | DataCamp | Intermediate Python for Developers (complete) | Course-Guided | New | `*args`/`**kwargs`, docstrings as contract, raise typed errors | Yes |
@@ -34,7 +35,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-07-22 | 3 | 2 | 2 | 0 | 0 | 2 |
+| 2026-07-22 | 4 | 2 | 2 | 1 | 0 | 3 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 0 | 3 |
 
 *Cold solves are intentionally low right now — the current phase is understanding + recall, per
