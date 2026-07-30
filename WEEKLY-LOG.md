@@ -8,6 +8,12 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-07-29
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 07-30 | DataCamp | OOP in Python — Ch 1: classes, `self`, `__init__`, constructor validation, `Point` from scratch | Course-Guided | New | `__init__` validates + assigns at creation = what Pydantic automates; moves the Pydantic question toward defensible | Yes |
+
 ## Week of 2026-07-22
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
@@ -41,6 +47,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
+| 2026-07-29 | 1 | 0 | 0 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 0 | 3 |
 
