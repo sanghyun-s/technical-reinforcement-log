@@ -28,7 +28,7 @@ Not a rigid algorithm — a nudge. After a recall attempt, grade it and schedule
 | Recall grade | Meaning | Next touch |
 |---|---|---|
 | **Strong** | Rebuilt clean, no peek | space out: ~1w → 3w → retire |
-| **Shaky** | Got it, slow or peeked | ~3–4 days |
+| **Shaky** | Got it, slow or peeked / needed guidance | ~3–4 days |
 | **Stuck** | Couldn't rebuild | ~2 days, and note what blocked me |
 
 Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
@@ -39,11 +39,12 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
-| 2026-07-21 | LC 0001 Two Sum | Prior archive | Pattern Re-Drill | **Strong** — hash-map + brute force from memory, ordering correct | Retire soon; try an unseen hash-map problem instead |
-| 2026-07-21 | LC 0014 Longest Common Prefix | Prior archive | Reference Recall | Ported for comparison; not yet rebuilt cold | Next-day recall owed |
-| 2026-07-19 | LC 3925 Concatenate | New (this repo) | First-Pass Assisted | Understood; 3 variants written | Next-day recall: rebuild once, cleaner |
-| 2026-07-19 | LC 1165 Single-Row Keyboard | New (this repo) | First-Pass Assisted | Understood; fixed set-vs-dict comprehension | Next-day recall owed |
-| 2026-07-24 | LC 360 Sort Transformed Array | New (this repo) | First-Pass Assisted | Understood parabola + two-pointer | Next-day recall: unify the two branches, one loop |
+| 2026-07-26 | LC 0938 Range Sum of BST | Prior archive | Reference Recall | Reconstructed with archive open — BST pruning clear | Next-day **unaided** pass (cold) |
+| 2026-07-26 | LC 1038 Greater Sum Tree | Prior archive | Reference Recall | Rebuilt O(n²) collect-and-re-sum; led into 538's O(n) fix | Rebuild the O(n) reverse-inorder unaided |
+| 2026-07-26 | LC 1874 Minimize Product Sum | Prior archive | Reference Recall | Greedy (rearrangement ineq.) + counting sort; both correct | Next-day unaided pass |
+| 2026-07-26 | LC 2824 Count Pairs Sum < Target (≡ 1679) | Prior archive | Pattern Re-Drill | **Shaky** — both approaches, but guided | Next-day unaided pass |
+| 2026-07-21 | LC 0001 Two Sum | Prior archive | Pattern Re-Drill | **Strong** — from memory, ordering correct | Retire soon; try an unseen hash-map problem |
+| 2026-07-21 | LC 0014 Longest Common Prefix | Prior archive | Reference Recall | Ported for comparison; not rebuilt cold | Next-day recall owed |
 
 ---
 
@@ -52,5 +53,18 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md)).
 Re-drill pulls from whichever family feels rustiest, not in order.
 
-**Next up to re-touch:** Two Pointers · Trees (DFS/BFS) · SQL — the three largest families,
-so the most worth keeping warm.
+**Recently touched:** Two Pointers (2824) · Trees/BST (938, 1038→538) · Greedy (1874).
+**Next up:** SQL — the largest family still cold.
+
+---
+
+## Recurring cross-problem lessons
+
+Patterns worth more than any single solve — the reusable *decisions*:
+
+- **"Bounded values → counting sort is available but fragile"** — met on 2974, 2824, 1874.
+  Faster (O(n) vs O(n log n)) only because `nums[i] ≤ 100`; breaks on unbounded input.
+- **"The thing that should move/shrink didn't"** — merge-sort pointer, quicksort recursion,
+  538's `noe` pointer typo. A variable that must change each iteration silently doesn't.
+- **"O(n²) → O(n) is usually: stop recomputing what you could carry"** — 538 reverse-inorder
+  carries a running total vs 1038 re-summing per node.
