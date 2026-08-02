@@ -39,6 +39,8 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-07-30 | LC 0226 Invert Binary Tree | Prior archive | Reference Recall | 4 traversals (recursion ×2, DFS-stack, BFS-queue); recursive core cold | Reproduce stack-DFS + queue-BFS unaided |
+| 2026-07-30 | LC 0349 Intersection of Two Arrays | Prior archive | Reference Recall | 4 set approaches; reached for two-pointer, set-intersect is the answer | Next-day unaided pass |
 | 2026-07-26 | LC 0938 Range Sum of BST | Prior archive | Reference Recall | Reconstructed with archive open — BST pruning clear | Next-day **unaided** pass (cold) |
 | 2026-07-26 | LC 1038 Greater Sum Tree | Prior archive | Reference Recall | Rebuilt O(n²) collect-and-re-sum; led into 538's O(n) fix | Rebuild the O(n) reverse-inorder unaided |
 | 2026-07-26 | LC 1874 Minimize Product Sum | Prior archive | Reference Recall | Greedy (rearrangement ineq.) + counting sort; both correct | Next-day unaided pass |
