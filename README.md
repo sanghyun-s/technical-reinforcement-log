@@ -37,7 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
-| 2026-07-29 | 3 | 0 | 2 | 1 | 1 |
+| 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 3 |
 
@@ -49,11 +49,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
+| 07-31 | LeetCode | LC 2545 Sort Students by Kth Score | Mixed |
+| 07-31 | LeetCode | LC 2657 Prefix Common Array | Reference Recall |
+| 07-31 | LeetCode | LC 3751 Total Waviness (Range I) | Reference Recall |
+| 07-31 | LeetCode | LC 3831 Median of a BST Level | Reference Recall |
 | 07-30 | LeetCode | LC 0349 Intersection of Two Arrays (re-drill) | Reference Recall |
-| 07-30 | LeetCode | LC 0226 Invert Binary Tree (re-drill) | Reference Recall |
-| 07-30 | DataCamp | OOP in Python — Ch 1: classes, `self`, `__init__`, constructor validation | Course-Guided |
-| 07-26 | LeetCode | LC 1874 Minimize Product Sum (re-drill) | Reference Recall |
-| 07-26 | LeetCode | LC 538 Convert BST to Greater Tree (new) | First-Pass Assisted |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---

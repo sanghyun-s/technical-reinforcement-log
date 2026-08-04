@@ -39,6 +39,10 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-07-31 | LC 2545 Sort Students by Kth Score | Archive + research | Mixed | **Solid** — sort by key; mutate-vs-return + `itemgetter` idioms | Quick recall (value is the idioms) |
+| 2026-07-31 | LC 2657 Prefix Common Array | Prior archive | Reference Recall | **Solid** — permutation-freq trick clicked cleanly | Quick unaided pass |
+| 2026-07-31 | LC 3751 Total Waviness (Range I) | Archive + editorial | Reference Recall | **Near-stuck** — digit DP passed on 7th attempt; brute force is the right tool here | Conceptual: re-explain the 5 DP state pieces, don't retype |
+| 2026-07-31 | LC 3831 Median of a BST Level | Prior archive | Reference Recall | **Shaky** — recursive DFS passed on 3rd attempt; BFS-no-sort insight solid | Rebuild the recursive version clean, unaided |
 | 2026-07-30 | LC 0226 Invert Binary Tree | Prior archive | Reference Recall | 4 traversals (recursion ×2, DFS-stack, BFS-queue); recursive core cold | Reproduce stack-DFS + queue-BFS unaided |
 | 2026-07-30 | LC 0349 Intersection of Two Arrays | Prior archive | Reference Recall | 4 set approaches; reached for two-pointer, set-intersect is the answer | Next-day unaided pass |
 | 2026-07-26 | LC 0938 Range Sum of BST | Prior archive | Reference Recall | Reconstructed with archive open — BST pruning clear | Next-day **unaided** pass (cold) |
@@ -50,23 +54,29 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 ---
 
+## Recurring cross-problem lessons
+
+Patterns worth more than any single solve — the reusable *decisions*:
+
+- **"Exploit the structural guarantee the problem hands you."** BST ordering (938, 538, 3831),
+  permutation-ness (2657), bounded values (2974, 1874). Ask: *what does the problem promise,
+  and how does that let me skip work (a sort, a full scan, a comparison)?* This is the signature
+  move forming across the log.
+- **"Match the tool to the constraint — both directions."** Sometimes the fancy tool is
+  needless and simple wins (2974, 349, 3751 at 10⁵). Sometimes the fancy tool is the *only* one
+  that scales (digit DP if 3751 were "Range II" at 10¹⁸). Reading the constraint picks the tool.
+- **"Bounded values → counting sort is available but fragile"** — 2974, 2824, 1874.
+- **"The thing that should move/shrink didn't"** — merge-sort pointer, quicksort recursion,
+  538's `noe` typo. A variable that must change each iteration silently doesn't.
+- **"O(n²) → O(n) is usually: stop recomputing what you could carry"** — 538 vs 1038.
+
+---
+
 ## Pattern rotation from the archive
 
 The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md)).
 Re-drill pulls from whichever family feels rustiest, not in order.
 
-**Recently touched:** Two Pointers (2824) · Trees/BST (938, 1038→538) · Greedy (1874).
+**Recently touched:** Trees/BST (938, 1038→538, 226, 3831) · Two Pointers (2824) ·
+Greedy (1874) · Hash/Set (349, 2657) · Sorting (2545) · Digit DP (3751).
 **Next up:** SQL — the largest family still cold.
-
----
-
-## Recurring cross-problem lessons
-
-Patterns worth more than any single solve — the reusable *decisions*:
-
-- **"Bounded values → counting sort is available but fragile"** — met on 2974, 2824, 1874.
-  Faster (O(n) vs O(n log n)) only because `nums[i] ≤ 100`; breaks on unbounded input.
-- **"The thing that should move/shrink didn't"** — merge-sort pointer, quicksort recursion,
-  538's `noe` pointer typo. A variable that must change each iteration silently doesn't.
-- **"O(n²) → O(n) is usually: stop recomputing what you could carry"** — 538 reverse-inorder
-  carries a running total vs 1038 re-summing per node.
