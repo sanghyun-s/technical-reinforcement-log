@@ -71,3 +71,32 @@ weakness-reinforcement, not résumé decoration. Start here.*
   course."
 - **Sequencing:** finish Tier A DataCamp (OOP → Testing) first. Then one Tier S build course.
   AWS cert is a later positioning move, not a now move.
+
+---
+
+## Sources & official links (verify before committing time/money)
+
+**Go to the primary source first** — these are the authoritative pages. The recommendations
+above draw partly on third-party write-ups (course aggregators, review blogs), so confirm
+price, free tier, and "includes certificate" at the official page before relying on them.
+These are affiliate-heavy topics, so fine print (exact cost, cert availability) is what to
+double-check.
+
+| Resource | Official link | Verification note |
+|---|---|---|
+| Anthropic Academy | https://anthropic.skilljar.com | Free-tier + Claude API / MCP course claims via Class Central + third-party guides; confirm on the site |
+| Scrimba — AI Engineer Path | https://scrimba.com/ai-engineer-path-c02v | JS-rendered; only page metadata was verifiable (agents/RAG/MCP/multimodal) — confirm contents + price directly |
+| Hugging Face — courses | https://huggingface.co/learn | Agents course "free + certified" per HF course pages + aggregators |
+| DeepLearning.AI — short courses | https://www.deeplearning.ai/courses | Lessons free to audit; certificates/graded work may be paid — confirm per course |
+| AWS Certified AI Practitioner (AIF-C01) | https://aws.amazon.com/certification/certified-ai-practitioner/ | Price cited as $75–100 across sources — official page is the authority |
+
+**Secondary sources consulted (third-party, not authoritative):**
+- AWS cert: supercareer.co, passitexams.com, certpath.dev, classesplace.com, certcrush.app
+- Anthropic Academy: classcentral.com, devtoolhub.com, pasqualepillitteri.it
+- Hugging Face: aiweekly.co, spectrumailab.com
+- DeepLearning.AI / RAG: deeplearning.ai/courses, turingpost.com
+
+*Honest caveat: the official Anthropic Academy and AWS pages were not fetched directly during
+research — those specifics rest on third-party sources. The overall shape (Anthropic/HF/Scrimba
+free & build-first; AWS a cheap conceptual cert; Simplilearn overpriced) is well-supported; the
+exact numbers are what to verify at the source.*
