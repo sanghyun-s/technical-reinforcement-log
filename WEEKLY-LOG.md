@@ -12,6 +12,7 @@ here first, so the most recent week is visible without opening a single folder.
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 08-10 | DataCamp | OOP in Python — Ch 4: Liskov Substitution, internal attrs, **`@property`** getters/setters (**course complete**) | Course-Guided | New | `@property` + setter validates on every assignment — enforce "balance never negative" on financial fields; Liskov: "is-a" can be wrong | **Promoted** |
 | 08-08 | DataCamp | OOP in Python — Ch 2–3: class attributes, `@classmethod`, **inheritance**, `super()`, `__eq__` | Course-Guided | New | `class MyModel(BaseModel)` IS inheritance — closes the Pydantic question; subclassed a real `pd.DataFrame` | **Promoted** |
 
 ## Week of 2026-07-29
@@ -59,7 +60,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-08-05 | 1 | 0 | 0 | 1 | 0 | 1 |
+| 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 0 | 3 |

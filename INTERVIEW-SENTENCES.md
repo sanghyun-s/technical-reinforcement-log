@@ -54,6 +54,7 @@ with a tracked unaided rate and a spaced-repetition retention log, not an assert
 |---|---|---|---|
 | I started with Intermediate Python so I could read my own function signatures unaided — what `*args`/`**kwargs` do to arguments, why a docstring is an interface contract, when to raise a typed error instead of swallowing one. | 01 | 1 | Yes — except the testing follow-up (see Not yet) |
 | `class MyModel(BaseModel)` is inheritance — my request schema inherits Pydantic's validation machinery and I just declare the fields, the same way `Manager(Employee)` inherits and extends `Employee`. I practiced it by subclassing a real `pd.DataFrame` to add a timestamp and override `to_csv` with `*args/**kwargs` passthrough. | 03 | 1 | Yes |
+| I use `@property` with a setter to enforce invariants on financial fields: a balance is backed by `_balance`, and every assignment runs a non-negative check, so `cust.balance = 3000` validates automatically — constructor-validation extended to every write. I also learned the Liskov trap: "is-a" inheritance can be wrong (a Square isn't safely a Rectangle), which changed how I decide when to subclass. | 03 | 1 | Yes |
 
 ---
 
