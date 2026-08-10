@@ -24,7 +24,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 | **Prior archive** | ~100 problems (98 files) · 💯 milestone Jun 2026 · now the re-drill library |
 | **New in this repo** | 5 problems + re-drills, since Jul 2026 |
 | **DataCamp** | 2 complete · 1 in progress · 13 planned |
-| **Interview bank** | 6 defensible lines · 3 in progress |
+| **Interview bank** | 7 defensible lines · 3 in progress |
 | **Tracks** | LeetCode (new + re-drill) · DataCamp · YouTube · app-code reading |
 
 *Full detail: [WEEKLY-LOG](./WEEKLY-LOG.md) · [RE-DRILL-LOG](./RE-DRILL-LOG.md) · [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md) · [INTERVIEW-SENTENCES](./INTERVIEW-SENTENCES.md)*
@@ -37,6 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
+| 2026-08-05 | 1 | 0 | 0 | 1 | 1 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
 | 2026-07-15 | 2 | 2 | 0 | 2 | 3 |
@@ -49,11 +50,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
+| 08-08 | DataCamp | OOP in Python — Ch 2–3: inheritance, `super()`, `@classmethod`, `__eq__` | Course-Guided |
 | 07-31 | LeetCode | LC 2545 Sort Students by Kth Score | Mixed |
 | 07-31 | LeetCode | LC 2657 Prefix Common Array | Reference Recall |
 | 07-31 | LeetCode | LC 3751 Total Waviness (Range I) | Reference Recall |
 | 07-31 | LeetCode | LC 3831 Median of a BST Level | Reference Recall |
-| 07-30 | LeetCode | LC 0349 Intersection of Two Arrays (re-drill) | Reference Recall |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---
