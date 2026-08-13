@@ -39,6 +39,11 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-08-11 | LC 1265 Print Immutable LL in Reverse | Prior archive | Reference Recall | **Solid** on recursion/stack/brute; √n decomposition heavy | A1–3 unaided; A4 conceptual re-explain |
+| 2026-08-11 | LC 1365 Smaller Numbers Than Current | Prior archive | Reference Recall | **Solid** — 3-tier ladder; bounded-values ⇒ counting sort is *correct* here | Quick unaided pass |
+| 2026-08-11 | LC 0094 Binary Tree Inorder | Prior archive | Reference Recall | **Solid** — recursion + explicit-stack duality clean | Reproduce iterative cold |
+| 2026-08-11 | LC 3945 Digit Frequency Score | Prior archive | Reference Recall | **Solid** — spotted the math collapse (score = digit sum) | Quick unaided pass |
+| 2026-08-11 | LC 0088 Merge Sorted Array | Prior archive | Reference Recall | **Solid** — back-merge, O(m+n), free space at tail | Quick unaided pass |
 | 2026-07-31 | LC 2545 Sort Students by Kth Score | Archive + research | Mixed | **Solid** — sort by key; mutate-vs-return + `itemgetter` idioms | Quick recall (value is the idioms) |
 | 2026-07-31 | LC 2657 Prefix Common Array | Prior archive | Reference Recall | **Solid** — permutation-freq trick clicked cleanly | Quick unaided pass |
 | 2026-07-31 | LC 3751 Total Waviness (Range I) | Archive + editorial | Reference Recall | **Near-stuck** — digit DP passed on 7th attempt; brute force is the right tool here | Conceptual: re-explain the 5 DP state pieces, don't retype |
@@ -72,11 +77,22 @@ Patterns worth more than any single solve — the reusable *decisions*:
 
 ---
 
+- **"Read what the problem IS before coding."** Tonight's five: use the sorted-ness you're
+  given (88), notice the definition collapses (3945), the constraint dictates the approach
+  (1265 immutability, 1365 bounded values). The obvious code is often not the intended one.
+- **"Recursion ⇄ explicit stack are the same thing."** invert (226), inorder (94), immutable-LL
+  (1265) — the explicit stack simulates the call stack; reach for it to dodge recursion limits.
+- **"√n decomposition threads the needle"** — when O(n) space is too much and O(n²) time too
+  slow, store √n landmarks + O(√n) local work (1265).
+
+---
+
 ## Pattern rotation from the archive
 
 The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md)).
 Re-drill pulls from whichever family feels rustiest, not in order.
 
-**Recently touched:** Trees/BST (938, 1038→538, 226, 3831) · Two Pointers (2824) ·
-Greedy (1874) · Hash/Set (349, 2657) · Sorting (2545) · Digit DP (3751).
+**Recently touched:** Trees/BST (938, 1038→538, 226, 3831, 94) · Two Pointers (2824, 88) ·
+Greedy (1874) · Hash/Set (349, 2657) · Sorting (2545, 1365) · Digit DP (3751) ·
+Math collapse (3945) · Linked List (1265).
 **Next up:** SQL — the largest family still cold.

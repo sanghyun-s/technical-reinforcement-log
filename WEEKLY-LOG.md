@@ -8,6 +8,16 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-08-12
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 08-11 | LeetCode | LC 1265 Print Immutable LL in Reverse | Reference Recall | Re-drill | Space/time frontier: recursion O(n)/O(n) → brute O(n²)/O(1) → **√n decomposition** O(n)/O(√n); immutability forbids in-place | Candidate |
+| 08-11 | LeetCode | LC 1365 Smaller Numbers Than Current | Reference Recall | Re-drill | 3-tier ladder; bounded values ⇒ counting sort is the *correct* optimal (positive mirror of 3751) | Candidate |
+| 08-11 | LeetCode | LC 0094 Binary Tree Inorder | Reference Recall | Re-drill | Iterative = recursion made visible; explicit stack mimics the call stack | Candidate |
+| 08-11 | LeetCode | LC 3945 Digit Frequency Score | Reference Recall | Re-drill | Math collapse: Σ d·freq(d) IS just the digit sum — no frequencies needed | Candidate |
+| 08-11 | LeetCode | LC 0088 Merge Sorted Array | Reference Recall | Re-drill | Back-merge in place, O(m+n); walk backwards because the free space is at the tail | Candidate |
+
 ## Week of 2026-08-05
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
@@ -60,6 +70,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
+| 2026-08-12 | 5 | 0 | 5 | 0 | 0 | 0 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |

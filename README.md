@@ -37,6 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
+| 2026-08-12 | 5 | 0 | 5 | 0 | 0 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
@@ -50,11 +51,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
-| 08-10 | DataCamp | OOP in Python — Ch 4: Liskov, `@property` (**course complete**) | Course-Guided |
-| 08-08 | DataCamp | OOP in Python — Ch 2–3: inheritance, `super()`, `@classmethod`, `__eq__` | Course-Guided |
-| 07-31 | LeetCode | LC 2545 Sort Students by Kth Score | Mixed |
-| 07-31 | LeetCode | LC 2657 Prefix Common Array | Reference Recall |
-| 07-31 | LeetCode | LC 3751 Total Waviness (Range I) | Reference Recall |
+| 08-11 | LeetCode | LC 1265 Print Immutable LL in Reverse | Reference Recall |
+| 08-11 | LeetCode | LC 1365 Smaller Numbers Than Current | Reference Recall |
+| 08-11 | LeetCode | LC 0094 Binary Tree Inorder | Reference Recall |
+| 08-11 | LeetCode | LC 3945 Digit Frequency Score | Reference Recall |
+| 08-11 | LeetCode | LC 0088 Merge Sorted Array | Reference Recall |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---
