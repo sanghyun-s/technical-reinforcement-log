@@ -7,7 +7,7 @@ not course-by-course — the connections are what interviewers probe.
 **Sources:** [01 Intermediate Python](./courses/01-intermediate-python-for-developers.md) ·
 [02 Data Structures & Algorithms](./courses/02-data-structures-and-algorithms.md) ·
 [03 Object-Oriented Programming](./courses/03-object-oriented-programming.md)
-**Pending:** Testing in Python (complete, notes not yet written up — folds in here when logged).
+**Pending:** Testing in Python — **not yet taken** (Tier A course, still outstanding). Folds in here once done and logged.
 
 ---
 
@@ -108,7 +108,7 @@ Pattern: most were *silent* (no crash, wrong answer) — which is exactly why tr
 
 ## Still open
 
-- **Testing in Python** — complete, notes not yet written up. When logged, add: pytest structure,
+- **Testing in Python** — **not yet taken** (Tier A, outstanding — the priority course). When done and logged, add: pytest structure,
   assert patterns, fixtures, and the promoted line *"I write pytest cases against the behavior I
   specified before accepting AI-generated code"* — which finally moves that claim out of the
   interview bank's "Not yet" section.

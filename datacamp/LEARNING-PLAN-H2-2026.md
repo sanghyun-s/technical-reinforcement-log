@@ -1,7 +1,7 @@
 # Learning Sequencing Plan — H2 2026 → 2027
 
 Companion to [ROADMAP.md](./ROADMAP.md) and [ROADMAP-SUPPLEMENT.md](./ROADMAP-SUPPLEMENT.md).
-**Tier A is complete** (Intermediate Python · DSA · OOP · Testing). This file sequences the
+**Tier A is nearly complete** (Intermediate Python · DSA · OOP done). **Testing in Python is still outstanding — it is Priority 0, before any Tier B course** (see Phase 0). This file sequences the
 remaining Tier B and C DataCamp courses, plus the free supplements, into a dated schedule.
 
 **Anchor dates:** Fall recruiting ~Sep 2026 · Spring 2027 graduation · Summer 2027 OPT.
@@ -15,6 +15,17 @@ remaining Tier B and C DataCamp courses, plus the free supplements, into a dated
 3. Positioning and rehearsal courses go last, time-gated to when they pay off.
 4. A course earns its slot only if it closes a fluency gap, defends portfolio tech, or is named
    in a target JD. Curiosity is not a reason.
+
+---
+
+## Phase 0 — Finish Tier A (do this first)
+
+The last Tier A course, still outstanding. **Priority 0 — before any Tier B course**, because it
+closes the fluency block and removes a live liability in a claim I already make.
+
+| Order | Course | Hrs | Why it's first |
+|---|---|---|---|
+| 0 | **Introduction to Testing in Python** | 4 | §12.1's answer claims I *"test, debug, and verify AI-assisted code."* The follow-up — *"how do you verify it?"* — I currently answer weakly ("I read it carefully"). Testing converts that to "pytest cases against behaviour I specified before accepting generated code." Every other course *adds* a capability; this *removes a liability in something I already say.* Promotes the "I verify AI-generated code" line out of the interview bank's "Not yet." |
 
 ---
 

@@ -8,7 +8,7 @@ what I *say* in an interview; this note is what I *study from*.
 **Covers:** [01 Intermediate Python](./courses/01-intermediate-python-for-developers.md) ·
 [02 DSA](./courses/02-data-structures-and-algorithms.md) ·
 [03 OOP](./courses/03-object-oriented-programming.md).
-**Pending:** Testing in Python (folds in when notes are written up).
+**Pending:** Testing in Python — **not yet taken** (Tier A, outstanding). Folds in when done and logged.
 
 ---
 
