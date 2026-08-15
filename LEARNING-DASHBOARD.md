@@ -15,7 +15,7 @@ reflect problems touching each family; compound problems appear in more than one
 | Hash Map / Set | 16 | Medium — strong already |
 | Trees (DFS/BFS/BST) | 15 | **High** — large, easy to go rusty |
 | Two Pointers | 11 | **High** |
-| SQL | 11 | **High** — used in CASSIA Text-to-SQL |
+| SQL | 11 | **High** — used in CASSIA Text-to-SQL; re-drill started (3368) |
 | Arrays / Math / Simulation | 11 | Low |
 | Strings / Prefix | 10 | Medium |
 | Dynamic Programming | 10 | Medium — hardest to retain |

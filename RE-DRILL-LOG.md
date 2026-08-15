@@ -39,6 +39,9 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-08-15 | LC 1411 Ways to Paint N×3 Grid | Prior archive | Reference Recall | **Solid** on 2-state/full DP; matrix expo conceptual | A1/A2 unaided; A3 re-explain the recurrence→matrix idea |
+| 2026-08-15 | LC 1255 Max Score Words | Prior archive | Reference Recall | **Solid** — bitmask ⇄ backtracking equivalence clear | Reproduce one paradigm unaided |
+| 2026-08-15 | LC 3368 First Letter Capitalization (SQL) | Prior archive | Reference Recall | **Solid** — recursive CTE + numbers-table split; warms coldest family | Reproduce numbers-table version unaided |
 | 2026-08-11 | LC 1265 Print Immutable LL in Reverse | Prior archive | Reference Recall | **Solid** on recursion/stack/brute; √n decomposition heavy | A1–3 unaided; A4 conceptual re-explain |
 | 2026-08-11 | LC 1365 Smaller Numbers Than Current | Prior archive | Reference Recall | **Solid** — 3-tier ladder; bounded-values ⇒ counting sort is *correct* here | Quick unaided pass |
 | 2026-08-11 | LC 0094 Binary Tree Inorder | Prior archive | Reference Recall | **Solid** — recursion + explicit-stack duality clean | Reproduce iterative cold |
@@ -87,6 +90,17 @@ Patterns worth more than any single solve — the reusable *decisions*:
 
 ---
 
+- **"Asymptotically-best isn't always constraint-appropriate."** Met three times: digit DP
+  (3751), √n decomposition (1265), matrix exponentiation (1411). The clever technique is correct
+  and scales, but the given constraint often makes the simpler tool faster in practice — pick the
+  simplest the constraint allows, unless a "Part II" cranks n up.
+- **"Small N (≤ ~20) + choose a subset ⇒ enumerate all 2^N."** Bitmask loop or take-or-skip
+  recursion — same search, iterative vs recursive (1255).
+- **"SQL has no split-to-rows — manufacture iteration"** via a recursive CTE (peel) or a numbers
+  table + `SUBSTRING_INDEX` (index the n-th field) (3368).
+
+---
+
 ## Pattern rotation from the archive
 
 The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md)).
@@ -94,5 +108,6 @@ Re-drill pulls from whichever family feels rustiest, not in order.
 
 **Recently touched:** Trees/BST (938, 1038→538, 226, 3831, 94) · Two Pointers (2824, 88) ·
 Greedy (1874) · Hash/Set (349, 2657) · Sorting (2545, 1365) · Digit DP (3751) ·
-Math collapse (3945) · Linked List (1265).
-**Next up:** SQL — the largest family still cold.
+Math collapse (3945) · Linked List (1265) · **SQL (3368)** · **Bitmask/backtracking (1255)** ·
+**State-compression DP (1411)**.
+**Next up:** more SQL (still the largest family) — 3368 only scratched it.

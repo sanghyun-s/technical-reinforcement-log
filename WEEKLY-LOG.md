@@ -12,7 +12,10 @@ here first, so the most recent week is visible without opening a single folder.
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
-| 08-11 | LeetCode | LC 1265 Print Immutable LL in Reverse | Reference Recall | Re-drill | Space/time frontier: recursion O(n)/O(n) → brute O(n²)/O(1) → **√n decomposition** O(n)/O(√n); immutability forbids in-place | Candidate |
+| 08-15 | LeetCode | LC 1411 Ways to Paint N×3 Grid (**Hard**) | Reference Recall | Re-drill | 12 patterns → 2 classes (ABA/ABC); DP ladder O(144n)→O(n)→O(log n); matrix expo over-engineering at n≤5000 | Candidate |
+| 08-15 | LeetCode | LC 1255 Max Score Words (**Hard**) | Reference Recall | Re-drill | words≤14 ⇒ enumerate 2^14 subsets; bitmask ⇄ take-or-skip recursion are the same search | Candidate |
+| 08-15 | LeetCode | LC 3368 First Letter Capitalization (**Hard, SQL**) | Reference Recall | Re-drill | SQL has no split-to-rows: recursive CTE (peel) vs numbers table + `SUBSTRING_INDEX` (index n-th word) | Candidate |
+| 08-11 | LeetCode | LC 1265 Print Immutable LL in Reverse | Reference Recall | Re-drill | Space/time frontier: recursion O(n)/O(n) → brute O(n²)/O(1) → **√n decomposition** O(n)/O(√n) | Candidate |
 | 08-11 | LeetCode | LC 1365 Smaller Numbers Than Current | Reference Recall | Re-drill | 3-tier ladder; bounded values ⇒ counting sort is the *correct* optimal (positive mirror of 3751) | Candidate |
 | 08-11 | LeetCode | LC 0094 Binary Tree Inorder | Reference Recall | Re-drill | Iterative = recursion made visible; explicit stack mimics the call stack | Candidate |
 | 08-11 | LeetCode | LC 3945 Digit Frequency Score | Reference Recall | Re-drill | Math collapse: Σ d·freq(d) IS just the digit sum — no frequencies needed | Candidate |
@@ -70,7 +73,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-08-12 | 5 | 0 | 5 | 0 | 0 | 0 |
+| 2026-08-12 | 8 | 0 | 8 | 0 | 0 | 0 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |
