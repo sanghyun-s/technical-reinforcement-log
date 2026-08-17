@@ -37,7 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
-| 2026-08-12 | 8 | 0 | 8 | 0 | 0 |
+| 2026-08-12 | 11 | 0 | 11 | 0 | 0 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
@@ -51,11 +51,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
+| 08-16 | LeetCode | LC 0561 Array Partition | Reference Recall |
+| 08-16 | LeetCode | LC 0338 Counting Bits | Reference Recall |
+| 08-16 | LeetCode | LC 1637 Widest Vertical Area | Reference Recall |
 | 08-15 | LeetCode | LC 1411 Ways to Paint N×3 Grid (Hard) | Reference Recall |
 | 08-15 | LeetCode | LC 1255 Max Score Words (Hard) | Reference Recall |
-| 08-15 | LeetCode | LC 3368 First Letter Capitalization (Hard, SQL) | Reference Recall |
-| 08-11 | LeetCode | LC 1265 Print Immutable LL in Reverse | Reference Recall |
-| 08-11 | LeetCode | LC 1365 Smaller Numbers Than Current | Reference Recall |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---

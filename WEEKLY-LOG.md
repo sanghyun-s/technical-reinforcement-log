@@ -12,6 +12,9 @@ here first, so the most recent week is visible without opening a single folder.
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 08-16 | LeetCode | LC 0561 Array Partition | Reference Recall | Re-drill | Sort + sum even indices; adjacent-pair greedy is optimal (swap-never-worse proof); counting sort over-engineering at n≤10⁴ | Candidate |
+| 08-16 | LeetCode | LC 0338 Counting Bits | Reference Recall | Re-drill | DP `ans[i]=ans[i>>1]+(i&1)` collapses O(n log n)→O(n): bits of i = bits of i//2 + last bit | Candidate |
+| 08-16 | LeetCode | LC 1637 Widest Vertical Area | Reference Recall | Re-drill | y is a red herring — 1D problem; sort x's, max adjacent gap | Candidate |
 | 08-15 | LeetCode | LC 1411 Ways to Paint N×3 Grid (**Hard**) | Reference Recall | Re-drill | 12 patterns → 2 classes (ABA/ABC); DP ladder O(144n)→O(n)→O(log n); matrix expo over-engineering at n≤5000 | Candidate |
 | 08-15 | LeetCode | LC 1255 Max Score Words (**Hard**) | Reference Recall | Re-drill | words≤14 ⇒ enumerate 2^14 subsets; bitmask ⇄ take-or-skip recursion are the same search | Candidate |
 | 08-15 | LeetCode | LC 3368 First Letter Capitalization (**Hard, SQL**) | Reference Recall | Re-drill | SQL has no split-to-rows: recursive CTE (peel) vs numbers table + `SUBSTRING_INDEX` (index n-th word) | Candidate |
@@ -73,7 +76,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-08-12 | 8 | 0 | 8 | 0 | 0 | 0 |
+| 2026-08-12 | 11 | 0 | 11 | 0 | 0 | 0 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |

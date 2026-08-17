@@ -39,6 +39,9 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-08-16 | LC 0561 Array Partition | Prior archive | Reference Recall | **Solid** — greedy (adjacent-pair) + counting-sort variant; proof clear | Quick unaided pass |
+| 2026-08-16 | LC 0338 Counting Bits | Prior archive | Reference Recall | **Solid** — Kernighan per-number + DP `ans[i>>1]+(i&1)` | Reproduce the DP recurrence unaided |
+| 2026-08-16 | LC 1637 Widest Vertical Area | Prior archive | Reference Recall | **Solid** — saw the y-is-irrelevant 1D collapse | Quick unaided pass |
 | 2026-08-15 | LC 1411 Ways to Paint N×3 Grid | Prior archive | Reference Recall | **Solid** on 2-state/full DP; matrix expo conceptual | A1/A2 unaided; A3 re-explain the recurrence→matrix idea |
 | 2026-08-15 | LC 1255 Max Score Words | Prior archive | Reference Recall | **Solid** — bitmask ⇄ backtracking equivalence clear | Reproduce one paradigm unaided |
 | 2026-08-15 | LC 3368 First Letter Capitalization (SQL) | Prior archive | Reference Recall | **Solid** — recursive CTE + numbers-table split; warms coldest family | Reproduce numbers-table version unaided |
@@ -107,7 +110,7 @@ The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DA
 Re-drill pulls from whichever family feels rustiest, not in order.
 
 **Recently touched:** Trees/BST (938, 1038→538, 226, 3831, 94) · Two Pointers (2824, 88) ·
-Greedy (1874) · Hash/Set (349, 2657) · Sorting (2545, 1365) · Digit DP (3751) ·
-Math collapse (3945) · Linked List (1265) · **SQL (3368)** · **Bitmask/backtracking (1255)** ·
-**State-compression DP (1411)**.
+Greedy (1874, 561) · Hash/Set (349, 2657) · Sorting (2545, 1365, 1637) · Digit DP (3751) ·
+Math collapse (3945) · Linked List (1265) · SQL (3368) · Bitmask/backtracking (1255) ·
+State-compression DP (1411) · DP/bit (338).
 **Next up:** more SQL (still the largest family) — 3368 only scratched it.
