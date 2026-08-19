@@ -39,6 +39,8 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-08-19 | LC 1302 Deepest Leaves Sum | Prior archive | Reference Recall | **Solid** — BFS "last level" reframe; noticed the hints lead to the weaker two-pass | Reproduce BFS unaided |
+| 2026-08-19 | LC 1382 Balance a BST | Prior archive | Reference Recall | **Solid** — inorder→sorted→middle-as-root; 3 idioms incl. `yield from` | Reproduce build() unaided |
 | 2026-08-16 | LC 0561 Array Partition | Prior archive | Reference Recall | **Solid** — greedy (adjacent-pair) + counting-sort variant; proof clear | Quick unaided pass |
 | 2026-08-16 | LC 0338 Counting Bits | Prior archive | Reference Recall | **Solid** — Kernighan per-number + DP `ans[i>>1]+(i&1)` | Reproduce the DP recurrence unaided |
 | 2026-08-16 | LC 1637 Widest Vertical Area | Prior archive | Reference Recall | **Solid** — saw the y-is-irrelevant 1D collapse | Quick unaided pass |
@@ -104,12 +106,18 @@ Patterns worth more than any single solve — the reusable *decisions*:
 
 ---
 
+- **"The hints describe *a* solution, not the *best* one."** 1302's hints spell out a two-pass
+  approach; single-pass BFS is cleaner. Following the guided path can leave the optimization on the
+  table — same "don't traverse twice / don't recompute" instinct as 538 and 338.
+
+---
+
 ## Pattern rotation from the archive
 
 The 98-problem archive grouped by family (see [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md)).
 Re-drill pulls from whichever family feels rustiest, not in order.
 
-**Recently touched:** Trees/BST (938, 1038→538, 226, 3831, 94) · Two Pointers (2824, 88) ·
+**Recently touched:** Trees/BST (938, 1038→538, 226, 3831, 94, 1382, 1302) · Two Pointers (2824, 88) ·
 Greedy (1874, 561) · Hash/Set (349, 2657) · Sorting (2545, 1365, 1637) · Digit DP (3751) ·
 Math collapse (3945) · Linked List (1265) · SQL (3368) · Bitmask/backtracking (1255) ·
 State-compression DP (1411) · DP/bit (338).

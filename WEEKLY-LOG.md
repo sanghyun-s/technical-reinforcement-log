@@ -8,6 +8,13 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-08-19
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 08-19 | LeetCode | LC 1302 Deepest Leaves Sum | Reference Recall | Re-drill | "Deepest leaves = last BFS level" — reset sum per level, no depth tracking; hints lead to weaker two-pass | Candidate |
+| 08-19 | LeetCode | LC 1382 Balance a BST | Reference Recall | Re-drill | Inorder → sorted → middle-as-root; midpoint choice guarantees balance (binary search run backwards) | Candidate |
+
 ## Week of 2026-08-12
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
@@ -77,6 +84,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
+| 2026-08-19 | 2 | 0 | 2 | 0 | 0 | 0 |
 | 2026-08-12 | 12 | 0 | 11 | 1 | 0 | 1 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
