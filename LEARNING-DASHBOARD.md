@@ -51,7 +51,7 @@ Roadmap and ranking in [ROADMAP.md](./ROADMAP.md). Target: Tier A + B before fal
 | Intermediate Python for Developers | A | ✅ Complete |
 | Data Structures & Algorithms in Python | A | ✅ Complete |
 | Object-Oriented Programming in Python | A | ✅ Complete |
-| Introduction to Testing in Python | A | Not started — **next up** |
+| Introduction to Testing in Python | A | In progress (Ch 1) |
 | Working with the OpenAI API | B | Not started |
 | Introduction to LLMs in Python | B | Not started |
 | Supervised Learning with scikit-learn | B | Not started |
@@ -64,7 +64,7 @@ Roadmap and ranking in [ROADMAP.md](./ROADMAP.md). Target: Tier A + B before fal
 
 | Bank | Count |
 |---|---|
-| Sentences I can defend now | 8 |
+| Sentences I can defend now | 9 |
 | "Not yet" (owed study before I can say them) | 3 |
 
 Full text in [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md).

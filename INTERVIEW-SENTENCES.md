@@ -52,9 +52,10 @@ with a tracked unaided rate and a spaced-repetition retention log, not an assert
 
 | Sentence | Source | Tier | Survives? |
 |---|---|---|---|
-| I started with Intermediate Python so I could read my own function signatures unaided — what `*args`/`**kwargs` do to arguments, why a docstring is an interface contract, when to raise a typed error instead of swallowing one. | 01 | 1 | Yes — except the testing follow-up (see Not yet) |
+| I started with Intermediate Python so I could read my own function signatures unaided — what `*args`/`**kwargs` do to arguments, why a docstring is an interface contract, when to raise a typed error instead of swallowing one. | 01 | 1 | Yes |
 | `class MyModel(BaseModel)` is inheritance — my request schema inherits Pydantic's validation machinery and I just declare the fields, the same way `Manager(Employee)` inherits and extends `Employee`. I practiced it by subclassing a real `pd.DataFrame` to add a timestamp and override `to_csv` with `*args/**kwargs` passthrough. | 03 | 1 | Yes |
 | I use `@property` with a setter to enforce invariants on financial fields: a balance is backed by `_balance`, and every assignment runs a non-negative check, so `cust.balance = 3000` validates automatically — constructor-validation extended to every write. I also learned the Liskov trap: "is-a" inheritance can be wrong (a Square isn't safely a Rectangle), which changed how I decide when to subclass. | 03 | 1 | Yes |
+| How do I verify AI-generated code? I write pytest assert tests against the behaviour I specified, and `pytest.raises` for expected exceptions like bad input, then run them from the CLI with `-k` to select subsets. I also flag fragile tests — e.g. comparing `list(set(...))` to an ordered list, since sets are unordered. | 04 | 1 | Yes (basic — fixtures/mocking deepen it as the course finishes) |
 
 ---
 
@@ -73,6 +74,5 @@ The staging area. Moving a line **out** is progress.
 
 | Sentence | What I'd need to defend it | Blocked on |
 |---|---|---|
-| "I test and verify the AI-assisted code I ship." | A concrete answer to "what would you test in PREPARE?" | Testing course (roadmap Tier A #3) |
 | "I can explain how LUCENT's Isolation Forest scores an anomaly." | Depth-based isolation, why fewer splits = more anomalous, why StandardScaler first | scikit-learn course + IF self-study |
 | "Horizontal-scan prefix matching, `startswith` early-exit." (0014) | A cold re-solve, not a port | 0014 still ported-only, owed |

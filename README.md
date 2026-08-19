@@ -23,8 +23,8 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 |---|---|
 | **Prior archive** | ~100 problems (98 files) · 💯 milestone Jun 2026 · now the re-drill library |
 | **New in this repo** | 5 problems + re-drills, since Jul 2026 |
-| **DataCamp** | 3 complete · 13 planned |
-| **Interview bank** | 8 defensible lines · 3 in progress |
+| **DataCamp** | 3 complete · 1 in progress · 13 planned |
+| **Interview bank** | 9 defensible lines · 2 in progress |
 | **Tracks** | LeetCode (new + re-drill) · DataCamp · YouTube · app-code reading |
 
 *Full detail: [WEEKLY-LOG](./WEEKLY-LOG.md) · [RE-DRILL-LOG](./RE-DRILL-LOG.md) · [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md) · [INTERVIEW-SENTENCES](./INTERVIEW-SENTENCES.md)*
@@ -37,7 +37,7 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
 |---|---:|---:|---:|---:|---:|
-| 2026-08-12 | 11 | 0 | 11 | 0 | 0 |
+| 2026-08-12 | 12 | 0 | 11 | 1 | 1 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
@@ -51,11 +51,11 @@ Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
 
 | Date | Track | Activity | Mode |
 |---|---|---|---|
+| 08-17 | DataCamp | Testing in Python — Ch 1: `assert`, `pytest.raises`, markers, CLI `-k` | Course-Guided |
 | 08-16 | LeetCode | LC 0561 Array Partition | Reference Recall |
 | 08-16 | LeetCode | LC 0338 Counting Bits | Reference Recall |
 | 08-16 | LeetCode | LC 1637 Widest Vertical Area | Reference Recall |
 | 08-15 | LeetCode | LC 1411 Ways to Paint N×3 Grid (Hard) | Reference Recall |
-| 08-15 | LeetCode | LC 1255 Max Score Words (Hard) | Reference Recall |
 | 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
 
 ---

@@ -12,6 +12,7 @@ here first, so the most recent week is visible without opening a single folder.
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 08-17 | DataCamp | Testing in Python — Ch 1: `assert` tests, `pytest.raises`, markers (skip/skipif/xfail), CLI + `-k` | Course-Guided | New | Answers "how do you verify AI code?" — write asserts vs specified behaviour + `pytest.raises`; caught the `list(set())` order-fragility | **Promoted** |
 | 08-16 | LeetCode | LC 0561 Array Partition | Reference Recall | Re-drill | Sort + sum even indices; adjacent-pair greedy is optimal (swap-never-worse proof); counting sort over-engineering at n≤10⁴ | Candidate |
 | 08-16 | LeetCode | LC 0338 Counting Bits | Reference Recall | Re-drill | DP `ans[i]=ans[i>>1]+(i&1)` collapses O(n log n)→O(n): bits of i = bits of i//2 + last bit | Candidate |
 | 08-16 | LeetCode | LC 1637 Widest Vertical Area | Reference Recall | Re-drill | y is a red herring — 1D problem; sort x's, max adjacent gap | Candidate |
@@ -76,7 +77,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-08-12 | 11 | 0 | 11 | 0 | 0 | 0 |
+| 2026-08-12 | 12 | 0 | 11 | 1 | 0 | 1 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |
 | 2026-07-29 | 7 | 0 | 6 | 1 | 0 | 1 |
 | 2026-07-22 | 11 | 3 | 6 | 2 | 0 | 4 |
