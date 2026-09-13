@@ -8,6 +8,17 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-09-14
+
+*Resumed after a ~1-month pause (CPT disruption from a legislative change + start of semester).
+Momentum over perfection — the gap is an honest blank, not a broken system.*
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 09-14 | LeetCode | LC 3898 Find Degree of Each Vertex | Reference Recall | Re-drill | Degree = row sum of adjacency matrix; undirected ⇒ symmetric, so col sum = row sum; all approaches O(n²) | Candidate |
+| 09-14 | LeetCode | LC 3110 Score of a String | Reference Recall | Re-drill | Adjacent-pair scan; `zip(s, s[1:])` handles the off-by-one structurally | Candidate |
+| 09-14 | LeetCode | LC 3512 Min Ops Divisible by K | Reference Recall | Re-drill | Math collapse: every op drops the sum by 1 → answer is `sum(nums) % k`; simulation is the O(n·k) trap | Candidate |
+
 ## Week of 2026-08-19
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
@@ -84,6 +95,8 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
+| 2026-09-14 | 3 | 0 | 3 | 0 | 0 | 0 |
+| *(2026-08-20 → 09-13)* | *break* | — | — | — | — | *CPT/semester pause — resumed 09-14* |
 | 2026-08-19 | 2 | 0 | 2 | 0 | 0 | 0 |
 | 2026-08-12 | 12 | 0 | 11 | 1 | 0 | 1 |
 | 2026-08-05 | 2 | 0 | 0 | 2 | 0 | 2 |

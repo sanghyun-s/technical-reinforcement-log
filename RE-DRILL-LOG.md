@@ -39,6 +39,9 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-09-14 | LC 3898 Find Degree of Each Vertex | Prior archive | Reference Recall | **Solid** — degree = row sum; caught the undirected-symmetry (col=row) | Quick unaided pass; warms Graph |
+| 2026-09-14 | LC 3110 Score of a String | Prior archive | Reference Recall | **Solid** — adjacent-pair `zip(s, s[1:])`; boundary handled | Quick unaided pass |
+| 2026-09-14 | LC 3512 Min Ops Divisible by K | Prior archive | Reference Recall | **Solid** — math collapse to `sum(nums) % k`; flagged the simulation trap | Quick unaided pass |
 | 2026-08-19 | LC 1302 Deepest Leaves Sum | Prior archive | Reference Recall | **Solid** — BFS "last level" reframe; noticed the hints lead to the weaker two-pass | Reproduce BFS unaided |
 | 2026-08-19 | LC 1382 Balance a BST | Prior archive | Reference Recall | **Solid** — inorder→sorted→middle-as-root; 3 idioms incl. `yield from` | Reproduce build() unaided |
 | 2026-08-16 | LC 0561 Array Partition | Prior archive | Reference Recall | **Solid** — greedy (adjacent-pair) + counting-sort variant; proof clear | Quick unaided pass |
