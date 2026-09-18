@@ -15,6 +15,7 @@ Momentum over perfection — the gap is an honest blank, not a broken system.*
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 09-17 | Coursework | CIS 9760 (🛡️) AWS S3/EC2/IAM + Linux CLI + Docker · STA 9750 (📚) R + Quarto/git | Course-Guided | New | Deployment-gap defense (Docker on EC2); Quarto-render = Docker-container = "run from a clean state" synthesis | 🛡️ Yes (2 lines) |
 | 09-18 | LeetCode | LC 1265 Print Immutable LL in Reverse (2nd pass) | Reference Recall | Re-drill | Reproduced √n decomposition (conceptual-only last month) — real retention gain; A2 has a non-fatal `i`-shadowing bug to fix | Candidate |
 | 09-18 | LeetCode | LC 3450 Max Students on a Bench | Reference Recall | Re-drill | `defaultdict(set)` groups + dedupes; `Counter` vs `defaultdict(set)` is the hash judgment | Candidate |
 | 09-18 | LeetCode | LC 3541 Most Frequent Vowel/Consonant | Reference Recall | Re-drill | Counter + `max(..., default=0)` empty-group guard; set membership O(1) | Candidate |
@@ -98,7 +99,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-09-14 | 6 | 0 | 6 | 0 | 0 | 0 |
+| 2026-09-14 | 7 | 0 | 6 | 1 (coursework) | 0 | 1 |
 | *(2026-08-20 → 09-13)* | *break* | — | — | — | — | *CPT/semester pause — resumed 09-14* |
 | 2026-08-19 | 2 | 0 | 2 | 0 | 0 | 0 |
 | 2026-08-12 | 12 | 0 | 11 | 1 | 0 | 1 |

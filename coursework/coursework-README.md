@@ -22,11 +22,19 @@ not a demotion, just accurate labeling.
 
 ---
 
+## Logged journals
+
+| Date | Journal | Courses | Tags |
+|---|---|---|---|
+| 2026-09-14 | [Week of 09-14](./2026-09-14_coursework-journal.md) | CIS 9760 · STA 9750 | 🛡️ + 📚 |
+
 ## Current coursework — tagged
 
 | Topic | Tag | Why | Defends |
 |---|---|---|---|
-| **Docker** | 🛡️ Portfolio-Defense | Containerization = the "how would this run in production?" answer | §12.2 Layer A "deployment gap"; prototype→production |
+| **Docker** | 🛡️ Portfolio-Defense | Containerization = the "how would this run in production?" answer — now practiced on EC2 | §12.2 Layer A "deployment gap"; prototype→production |
+| **AWS (S3 / EC2 / IAM)** | 🛡️ Portfolio-Defense | Cloud provisioning, storage, scoped access — where the apps would deploy | Deployment gap; §6.1 Tier 1/2 JD keyword |
+| **Linux terminal / CLI** | 🛡️ Portfolio-Defense | Server management without a GUI; the ops layer under deployment | §12.2 operational layer |
 | **AWS / cloud management** | 🛡️ Portfolio-Defense | Where the apps would actually deploy; also a common JD keyword | Deployment gap; §6.1 Tier 1/2 job families |
 | **Cloud computing (concepts)** | 🛡️ Portfolio-Defense | Operational/scaling vocabulary for a production conversation | §12.2 "operational risk", scaling, monitoring |
 | **Quarto Markdown** | 📚 General Coursework | Reproducible reporting; useful, but not on the Python/SQL/AI-builder axis | — (adjacent to data-analyst reporting if a JD names it) |
