@@ -39,6 +39,9 @@ Miss a date? No penalty. The queue is a suggestion; consistency beats precision.
 
 | Date | Problem / Pattern | Source | Mode | Result | Next step |
 |---|---|---|---|---|---|
+| 2026-09-18 | LC 1265 Print Immutable LL in Reverse (**2nd pass**) | Prior archive | Reference Recall | **Retention win** — led with √n decomposition (was conceptual-only 08-11); reproduced correctly. Updates existing file | Fix A2 inner-loop `i` shadowing; try √n unaided |
+| 2026-09-18 | LC 3450 Max Students on a Bench | Prior archive | Reference Recall | **Solid** — group-by-bench with `defaultdict(set)`; set dedupes | Quick unaided pass |
+| 2026-09-18 | LC 3541 Most Frequent Vowel/Consonant | Prior archive | Reference Recall | **Solid** — Counter + `max(default=0)` empty-group guard | Quick unaided pass |
 | 2026-09-14 | LC 3898 Find Degree of Each Vertex | Prior archive | Reference Recall | **Solid** — degree = row sum; caught the undirected-symmetry (col=row) | Quick unaided pass; warms Graph |
 | 2026-09-14 | LC 3110 Score of a String | Prior archive | Reference Recall | **Solid** — adjacent-pair `zip(s, s[1:])`; boundary handled | Quick unaided pass |
 | 2026-09-14 | LC 3512 Min Ops Divisible by K | Prior archive | Reference Recall | **Solid** — math collapse to `sum(nums) % k`; flagged the simulation trap | Quick unaided pass |

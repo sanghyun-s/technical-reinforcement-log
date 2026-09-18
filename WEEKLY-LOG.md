@@ -15,6 +15,9 @@ Momentum over perfection — the gap is an honest blank, not a broken system.*
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 09-18 | LeetCode | LC 1265 Print Immutable LL in Reverse (2nd pass) | Reference Recall | Re-drill | Reproduced √n decomposition (conceptual-only last month) — real retention gain; A2 has a non-fatal `i`-shadowing bug to fix | Candidate |
+| 09-18 | LeetCode | LC 3450 Max Students on a Bench | Reference Recall | Re-drill | `defaultdict(set)` groups + dedupes; `Counter` vs `defaultdict(set)` is the hash judgment | Candidate |
+| 09-18 | LeetCode | LC 3541 Most Frequent Vowel/Consonant | Reference Recall | Re-drill | Counter + `max(..., default=0)` empty-group guard; set membership O(1) | Candidate |
 | 09-14 | LeetCode | LC 3898 Find Degree of Each Vertex | Reference Recall | Re-drill | Degree = row sum of adjacency matrix; undirected ⇒ symmetric, so col sum = row sum; all approaches O(n²) | Candidate |
 | 09-14 | LeetCode | LC 3110 Score of a String | Reference Recall | Re-drill | Adjacent-pair scan; `zip(s, s[1:])` handles the off-by-one structurally | Candidate |
 | 09-14 | LeetCode | LC 3512 Min Ops Divisible by K | Reference Recall | Re-drill | Math collapse: every op drops the sum by 1 → answer is `sum(nums) % k`; simulation is the O(n·k) trap | Candidate |
@@ -95,7 +98,7 @@ Momentum over perfection. The point is that the rows exist, week after week.
 
 | Week | Sessions | New problems | Re-drills / recall | Course reps | Cold solves | Sentences promoted |
 |---|---|---|---|---|---|---|
-| 2026-09-14 | 3 | 0 | 3 | 0 | 0 | 0 |
+| 2026-09-14 | 6 | 0 | 6 | 0 | 0 | 0 |
 | *(2026-08-20 → 09-13)* | *break* | — | — | — | — | *CPT/semester pause — resumed 09-14* |
 | 2026-08-19 | 2 | 0 | 2 | 0 | 0 | 0 |
 | 2026-08-12 | 12 | 0 | 11 | 1 | 0 | 1 |
