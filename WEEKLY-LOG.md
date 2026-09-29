@@ -8,6 +8,13 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-09-28
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 09-29 | Coursework | CIS 9760 Module 4 (🛡️) — Dockerfile from scratch, containerized REST-API app, env-var secrets, argparse CLI; 9-bug postmortem | Course-Guided | New | "Verify by relationship, not appearance" (9/5 arithmetic check proved the units param reached the API); rebuild-after-every-edit (image = snapshot) | 🛡️ Yes |
+| 09-29 | Coursework | STA 9750 MP#00 (📚) — GitHub Pages pipeline (RStudio→git→Pages), peer-review meta-skill, fixed own site | Course-Guided | New | Render-trap = Docker stale-image trap (config change needs full-site render); "you can't proofread a page you wrote" | 🔁 transferable |
+
 ## Week of 2026-09-14
 
 *Resumed after a ~1-month pause (CPT disruption from a legislative change + start of semester).
