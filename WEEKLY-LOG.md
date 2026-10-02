@@ -8,6 +8,14 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-10-01
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 10-02 | Coursework | CIS 9760 Module 5 (🛡️) — OpenSearch cluster + Dockerized Python REST client on EC2; env-var secrets + `sys.argv` doc-id; 5-issue layered debug | Course-Guided | New | Debug by *layer*: `LocationParseError` (malformed URL) vs `NameResolutionError` (DNS) vs stale image vs shell smart-quotes | 🛡️ candidate |
+| 10-02 | Coursework | STA 9750 Lab 4 (📚) — dplyr single-table verbs, R's NA model, group-aware filtering (`nycflights13`) | Course-Guided | New | `mean` of a logical IS a rate; `filter` keeps TRUE not "not FALSE"; where a verb sits is part of the question | 🔁 transferable |
+| 10-01 | Coursework | STA 9750 Week 5 (📚) — base R grammar reference + 12 practice probes | Course-Guided | New | The "quiet failures" catalogue (coercion, recycling, float `==`, `seq_len` empty-range); caught `my_factorial(0)=0` bug in the posted solution | 🔁 transferable |
+
 ## Week of 2026-09-28
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
