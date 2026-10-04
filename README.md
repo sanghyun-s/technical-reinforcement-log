@@ -1,152 +1,76 @@
 # Technical Reinforcement Log
 
-**Sang-Hyun Seong** · M.S. Business Analytics, Baruch College (Zicklin) · Expected May 2027
-Companion to the *Accounting Meets AI* portfolio — PREPARE · CASSIA · LUCENT
+**Sang-Hyun Seong** · M.S. Business Analytics, Baruch College (CUNY), Zicklin · Expected May 2027 ·
+prior U.S. small-business accounting & tax experience.
 
-> Repetition-based reinforcement of the code fluency behind an AI-assisted portfolio.
-> Not an unaided-rate scoreboard — a record of returning to patterns and rebuilding them.
+A long-term technical reinforcement record for **2027 early-career analytics and business-systems
+roles.** It tracks independent fundamentals, applied analytics, coursework, coding drills, employer
+simulations, and portfolio defense — with the emphasis on **what I can reproduce, explain, and
+defend**, not on course completion or activity volume.
 
-<p align="center">
-  <a href="./WEEKLY-LOG.md"><img src="https://img.shields.io/badge/Weekly%20Log-1f6feb?style=for-the-badge" alt="Weekly Log"></a>
-  <a href="./RE-DRILL-LOG.md"><img src="https://img.shields.io/badge/Re--Drill%20Log-fb8500?style=for-the-badge" alt="Re-Drill Log"></a>
-  <a href="./LEARNING-DASHBOARD.md"><img src="https://img.shields.io/badge/Dashboard-2a9d8f?style=for-the-badge" alt="Learning Dashboard"></a>
-  <a href="./INTERVIEW-SENTENCES.md"><img src="https://img.shields.io/badge/Interview%20Bank-6f42c1?style=for-the-badge" alt="Interview Bank"></a>
-  <a href="./leetcode/archive/ARCHIVE-LOG.md"><img src="https://img.shields.io/badge/Prior%20100%20Archive-6c757d?style=for-the-badge" alt="Prior 100 Archive"></a>
-  <a href="https://github.com/sanghyun-s/leetcode-study/tree/main"><img src="https://img.shields.io/badge/Original%20LeetCode%20Log-181717?style=for-the-badge&logo=github&logoColor=white" alt="Original LeetCode Log"></a>
-</p>
+> **One-line identity:** an accounting-domain professional developing into an analytics and
+> business-systems specialist.
+
+Not positioning as a pure data scientist, AI engineer, software engineer, or CPA-first accountant.
 
 ---
 
-## 📊 Snapshot
+## Career targets this log supports
 
-| | |
-|---|---|
-| **Prior archive** | ~100 problems (98 files) · 💯 milestone Jun 2026 · now the re-drill library |
-| **New in this repo** | 5 problems + re-drills, since Jul 2026 |
-| **DataCamp** | 3 complete · 1 in progress · 13 planned |
-| **Interview bank** | 9 defensible lines · 2 in progress |
-| **Tracks** | LeetCode (new + re-drill) · DataCamp · YouTube · app-code reading |
+- **Primary — Data / BI / Business Analytics:** Data Analyst · BI Analyst · Reporting / Operations /
+  Financial Data Analyst · Business Analyst.
+- **Bridge — Tax Technology / Business Systems / Automation:** tax data · finance transformation ·
+  implementation · process automation · accounting systems.
+- **Market floor — Tax / Accounting:** corporate / private-client / business tax · accounting analyst.
 
-*Full detail: [WEEKLY-LOG](./WEEKLY-LOG.md) · [RE-DRILL-LOG](./RE-DRILL-LOG.md) · [LEARNING-DASHBOARD](./LEARNING-DASHBOARD.md) · [INTERVIEW-SENTENCES](./INTERVIEW-SENTENCES.md)*
-
----
-
-## 🗓️ Weekly progress
-
-*Rollup — full rows in [WEEKLY-LOG.md](./WEEKLY-LOG.md).*
-
-| Week | Sessions | New problems | Re-drills / recall | Course reps | Sentences promoted |
-|---|---:|---:|---:|---:|---:|
-| 2026-09-14 | 6 | 0 | 6 | 0 | 0 |
-| 2026-08-19 | 2 | 0 | 2 | 0 | 0 |
-| 2026-08-12 | 12 | 0 | 11 | 1 | 1 |
-| 2026-08-05 | 2 | 0 | 0 | 2 | 2 |
-| 2026-07-29 | 7 | 0 | 6 | 1 | 1 |
-| 2026-07-22 | 11 | 3 | 6 | 2 | 4 |
-| 2026-07-15 | 2 | 2 | 0 | 2 | 3 |
+The repository exists to answer: *What can I now do independently that I couldn't before? Which
+skills have I practiced cold? Where did I need AI, and what can I now reproduce without it? Can I
+explain it — and survive the follow-up?*
 
 ---
 
-## ⚡ Latest push (LeetCode + DataCamp)
+## How it's organized — competency first, source as metadata
 
-*Most recent activity — full log in [WEEKLY-LOG.md](./WEEKLY-LOG.md).*
-
-| Date | Track | Activity | Mode |
-|---|---|---|---|
-| 09-18 | LeetCode | LC 1265 Print Immutable LL in Reverse (2nd pass) | Reference Recall |
-| 09-18 | LeetCode | LC 3450 Max Students on a Bench | Reference Recall |
-| 09-18 | LeetCode | LC 3541 Most Frequent Vowel/Consonant | Reference Recall |
-| 09-14 | LeetCode | LC 3898 Find Degree of Each Vertex | Reference Recall |
-| 09-14 | LeetCode | LC 3110 Score of a String | Reference Recall |
-| 07-19 | DataCamp | DSA — Ch 1: linked lists, stacks, queues, Big O | Course-Guided |
-
----
-
-## 🎯 Interview takeaways
-
-*Top defensible lines — full bank (6 defensible, 3 "not yet") in [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md).*
-
-| Line | Defends |
-|---|---|
-| I don't claim I'm improving — I measure it: solve mode per problem + a spaced-repetition retention log I can show. | The §4 weakness question (turns it into a strength) |
-| Precompute a value→index dict for O(1) complement lookup, checking before storing so I never reuse an element. | Hash map · Python fluency |
-| A parabola's extremes sit at a sorted array's ends, so I sort in O(n) with two pointers converging inward. | Two pointers · complexity reasoning |
-| Counting sort is faster on paper, but only with bounded values — for this input a plain sort is clearer and robust. | Engineering judgment |
-| I built a stack and both binary searches by hand, so I can justify Big O from the data structure up, not memorize it. | DSA fundamentals |
-
----
-
-## 🧩 Archive coverage — prior ~100
-
-*Pattern families from the [baseline archive](./leetcode/archive/). Full day-by-day milestone
-record: [ARCHIVE-LOG.md](./leetcode/archive/ARCHIVE-LOG.md) · cheat sheet:
-[PATTERNS-CHEATSHEET.md](./leetcode/archive/PATTERNS-CHEATSHEET.md).*
-
-| Family | ~Count | | Family | ~Count |
-|---|---:|---|---|---:|
-| Hash Map / Set / Table | 12 | | Math (collapse, Frobenius, Catalan…) | 6 |
-| Sorting (+ counting sort) | 11 | | Strings | 5 |
-| Trees (DFS ×5 · BFS ×2 · mirror · N-ary) | 11 | | Two Pointers | 5 |
-| SQL (7 sub-patterns) | 10 | | Bit Manipulation | 5 |
-| Greedy | 9 | | Matrix | 4 |
-| Dynamic Programming (7 sub-patterns) | 8 | | Simulation | 4 |
-| Prefix Sum · Linked List | 3 · 3 | | Backtracking · Binary Search · Graph | 2 · 1 · 1 |
-
-**Re-drill priority (largest / rustiest first):** Trees · Two Pointers · SQL · DP.
-
----
-
-## What this repo is
-
-This repo is **not an unaided-rate scoreboard.** It records how I strengthen the code fluency
-behind my AI-assisted portfolio — through repeated implementation, next-day recall,
-course-guided coding, pattern re-drills, and interview-ready explanations. The key evidence is
-whether I can **return to a pattern, rebuild it with less help, explain the trade-off, and
-connect it to my portfolio work.**
-
-## Repetition-first rule
-
-My mentor's instruction: **understand the solution first — even with AI, hints, or a worked
-answer — then return the next day and rebuild it with less help.** Difficulty doesn't matter;
-consistency and momentum do. A first-pass assisted solve becomes evidence when it leads to
-next-day recall → pattern re-drill → a cleaner re-implementation → a defensible explanation.
-
-## How work is labeled
-
-Solve Mode is an **honesty marker, not a grade.** No mode is second-class.
-
-| Mode | Meaning |
-|---|---|
-| **First-Pass Assisted** | Understood a new problem using AI / answer / hints / course |
-| **Course-Guided** | Wrote the code myself inside a structured environment (DataCamp) |
-| **Reference Recall** | Rebuilt it myself while referring to my own notes/repo |
-| **Next-Day Recall** | Re-implemented a recent problem without looking |
-| **Cold Solve** | New problem, from a blank page |
-| **Pattern Re-Drill** | Repeated a prior-archive problem to keep a pattern sharp |
-| **Transcribed** | Copied to learn. Logged honestly, never inflated as evidence |
-
-Cold solves still matter (1–2/week) — one kind of evidence among several, not the throne.
-
-## Baseline archive: prior ~100 LeetCode problems
-
-Completed with AI assistance and detailed notes ([`leetcode-study`](https://github.com/sanghyun-s/leetcode-study),
-mirrored under [`leetcode/archive/`](./leetcode/archive/)). Not pure independent evidence —
-my **re-drill library.** Spaced repetition and next-day recall run on it. A more honest framing
-than hiding it or overclaiming it.
-
-## Structure
-
-Root markdown = what I'm doing (public-facing). Folders = detailed backing files.
+**Folder = the skill. The learning source (DataCamp, Baruch coursework, Forage, LeetCode, docs) is
+recorded as metadata inside each activity file**, not as a folder name. A DataCamp SQL course and a
+Baruch database assignment both land in `sql/`; the file says where it came from.
 
 ```
-technical-reinforcement-log/
-├── README.md                 ← snapshot + dashboards (this file)
-├── WEEKLY-LOG.md             ← main activity stream, all tracks
-├── RE-DRILL-LOG.md           ← repetition & next-day recall
-├── LEARNING-DASHBOARD.md     ← cumulative pattern coverage + courses
-├── INTERVIEW-SENTENCES.md    ← polished, defensible lines
-├── leetcode/
-│   ├── archive/              ← prior ~100 + ARCHIVE-LOG.md + cheat sheet (re-drill library)
-│   └── problems/             ← new problems worked here
-├── datacamp/courses/         · youtube/videos/         · sessions/ (optional long-form)
+sql/  python/(courses, coding-drills)  bi/(power-bi, tableau, excel-power-query)
+r-analytics/  cloud-data-systems/(aws, docker, opensearch)
+ai-systems/(fastapi, rag-text-to-sql, ml-anomaly-detection, evals)
+applied-practice/(forage, handshake, end-to-end-analysis)
+portfolio-defense/(prepare, cassia, lucent)   resources/youtube/   _legacy/
 ```
+
+Core files: **WEEKLY-LOG** (weekly roll-up) · **LEARNING-DASHBOARD** (skill matrix) ·
+**INTERVIEW-SENTENCES** (defensible lines) · **ROADMAP** (NOW/NEXT/WHEN-NEEDED/PARKED + phases) ·
+**ACTIVITY-TEMPLATE** (the one source-neutral log format).
+
+---
+
+## Work Mode vs Training Mode (how AI is used here)
+
+This log is **not anti-AI.** AI is a genuine productivity tool I use for research, design, debugging,
+cross-checking, and strategy. But reinforcement requires a distinction:
+
+- **Work Mode** — use AI aggressively for productivity when appropriate.
+- **Training Mode** — attempt independently first; identify the exact point of failure; then request
+  a hint/reference; retry; reproduce cold later; document what changed.
+
+The professional claim this supports is *"I know when AI accelerates my work, and I also know what I
+must be able to do independently."* That's a strength, stated plainly — not an apology.
+
+---
+
+## The longitudinal story (see ROADMAP for detail)
+
+- **Phase 1 — Summer 2026:** rebuilt the coding fundamentals behind an AI-assisted portfolio
+  (Python, DSA, testing, portfolio defense). *Now largely history — preserved in `_legacy/`.*
+- **Phase 2 — Fall 2026 (current):** broadening into analyst-ready SQL, Python/pandas, Excel/Power
+  Query, Power BI, R, and cloud/data systems — emphasis on *"can I do it without generated output?"*
+- **Phase 3 — Spring 2027:** narrowing to weaknesses exposed by real job descriptions and screens.
+- **Phase 4 — Summer 2027:** transition from structured learning to professional practice (OPT).
+
+> The question this repo ultimately answers is not *"what did I study?"* but *"what can I now do,
+> explain, reproduce, and defend that I could not do before?"*

@@ -1,70 +1,24 @@
-# Learning Dashboard
+# Learning Dashboard — Skill Matrix
 
-The cumulative view — "how much ground is covered," at a glance. Complements WEEKLY-LOG
-(what's recent) and RE-DRILL-LOG (what's being repeated).
+Evidence-driven. **No skill is marked above its evidence.** Status rises only when a real artifact or
+a cold-reproduction supports it.
 
----
+**Status vocabulary:** `Not started` → `Building` (studying, guided) → `Active` (using it, some
+independence) → `Needs re-drill` (knew it, gone cold) → `Defensible` (can explain + survive a
+follow-up) → `Cold-reproducible` (can rebuild unaided).
 
-## LeetCode — archive coverage (prior 98)
+| Skill | Current evidence | Independent check (the bar) | Status |
+|---|---|---|---|
+| **Python / pandas** | Tier-A DataCamp (Intermediate Python, DSA, OOP, Testing Ch1) + coding-drills + portfolio backends | Clean an unfamiliar dataset cold; reproduce a pattern cold | **Active** |
+| **Coding drills (logic/DSA)** | ~100-problem archive + 32 re-drilled problems, solve-mode tracked | New Easy cold; re-drill a Medium cold | **Active** |
+| **SQL** | CASSIA Text-to-SQL (AI-assisted) · DataCamp SQL courses *planned* | Write a multi-table query cold; validate aggregation grain | **Building** |
+| **Excel / Power Query** | Real accounting use (PivotTables, Power Query, XLOOKUP, SUMIFS) | A transformation + validation task, documented | **Active** |
+| **Power BI** | Listed on resume; DataCamp intro/modeling *planned* | Build a star schema + a measure, explain context | **Not started → Building** |
+| **Tableau** | *(no current artifact in this repo)* | A rebuilt viz I can explain | **Not started** |
+| **R / tidyverse** | STA 9750 coursework (Lab 3–4, base-R grammar, Quarto) | Cold dplyr manipulation on a new dataset | **Building** |
+| **Cloud / data systems (AWS, Docker, OpenSearch)** | CIS 9760 Modules 2–5 (hands-on: EC2, S3, IAM, Docker, OpenSearch REST client) | Reconstruct a Dockerized API client lab unaided | **Building** |
+| **AI systems / workflow** | PREPARE · CASSIA · LUCENT (architecture, boundaries, validation) | Defend the AI-vs-deterministic boundary + code flow | **Defensible** |
+| **Testing (pytest)** | Testing Ch1 (assert, pytest.raises, markers, CLI) | Write a test suite for a small module cold | **Building** |
 
-Pattern exposure across the baseline archive now serving as the re-drill library. (Counts
-reflect problems touching each family; compound problems appear in more than one.)
-
-| Family | Problems | Re-drill priority |
-|---|---|---|
-| Hash Map / Set | 16 | Medium — strong already |
-| Trees (DFS/BFS/BST) | 15 | **High** — large, easy to go rusty |
-| Two Pointers | 11 | **High** |
-| SQL | 11 | **High** — used in CASSIA Text-to-SQL; re-drill started (3368) |
-| Arrays / Math / Simulation | 11 | Low |
-| Strings / Prefix | 10 | Medium |
-| Dynamic Programming | 10 | Medium — hardest to retain |
-| Greedy | 10 | Medium |
-| Sorting | 6 | Low |
-| Matrix | 6 | Low |
-| Backtracking | 5 | Medium |
-| Bit Manipulation | 4 | Low |
-| Binary Search | 3 | Medium — small sample, drill more |
-| Linked List | 2 | Medium — reinforced by DSA course |
-
-**Archive totals:** 61 easy · 34 medium · 3 hard.
-
----
-
-## LeetCode — new work in this repo
-
-| # | Problem | Family | First mode | Recall done? |
-|---|---|---|---|---|
-| 3925 | Concatenate Array With Reverse | Arrays | First-Pass Assisted | Owed |
-| 1165 | Single-Row Keyboard | Hash Map | First-Pass Assisted | Owed |
-| 360 | Sort Transformed Array | Two Pointers | First-Pass Assisted | Owed |
-| 2974 | Minimum Number Game | Sorting | Reference Recall | Owed |
-
----
-
-## DataCamp — course progress
-
-Roadmap and ranking in [ROADMAP.md](./ROADMAP.md). Target: Tier A + B before fall recruiting.
-
-| Course | Tier | Status |
-|---|---|---|
-| Intermediate Python for Developers | A | ✅ Complete |
-| Data Structures & Algorithms in Python | A | ✅ Complete |
-| Object-Oriented Programming in Python | A | ✅ Complete |
-| Introduction to Testing in Python | A | In progress (Ch 1) |
-| Working with the OpenAI API | B | Not started |
-| Introduction to LLMs in Python | B | Not started |
-| Supervised Learning with scikit-learn | B | Not started |
-| Building Scalable Agentic Systems | B | Not started |
-| + 5 more | B/C | See roadmap |
-
----
-
-## Interview readiness
-
-| Bank | Count |
-|---|---|
-| Sentences I can defend now | 9 |
-| "Not yet" (owed study before I can say them) | 3 |
-
-Full text in [INTERVIEW-SENTENCES.md](./INTERVIEW-SENTENCES.md).
+*Blank-evidence rows stay `Not started` on purpose — this dashboard is a mirror, not a wish list.
+Update a row only when an artifact or a cold-reproduction actually moves it.*
