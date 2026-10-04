@@ -1,5 +1,5 @@
 > **Coursework · STA 9750 · Base R Grammar (reference + 12 practice questions)** · Tag: 📚 **General Coursework** (with 🔁 transferable bits)
-> Companion: [Lab4_journal](./Lab4_journal.md) · index: [coursework-README](../coursework-README.md)
+> Companion: [Lab4_journal](./Lab4_journal.md) · index: [coursework-README](../_legacy/coursework-README-v1.md)
 > *🔁 Transferable: the "quiet failures" catalogue (coercion, recycling, float equality, `seq_len`
 > empty-range guard) is language-universal. Original reference note below, verbatim.*
 

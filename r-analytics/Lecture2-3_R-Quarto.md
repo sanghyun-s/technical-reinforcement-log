@@ -1,6 +1,6 @@
 > **Coursework · STA 9750 Software Tools for Reproducible Research · Lectures 2–3** · Tag: 📚 **General Coursework**
-> Split out of the [Week of 09-14 hub](../2026-09-14_coursework-journal.md). Full sub-journals:
-> [Lab3_journal](./Lab3_journal.md) · [Week2_review](./Week2_review.md) · index: [coursework-README](../coursework-README.md)
+> Split out of the [Week of 09-14 hub](../2026-09-14_coursework-synthesis.md). Full sub-journals:
+> [Lab3_journal](./Lab3_journal.md) · [Week2_review](./Week2_review.md) · index: [coursework-README](../_legacy/coursework-README-v1.md)
 
 # STA 9750 Lectures 2–3 — Markdown / Quarto / git + R fundamentals
 

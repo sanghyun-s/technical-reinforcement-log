@@ -1,6 +1,6 @@
 > **Coursework · CIS 9760 Big Data Technologies · Modules 2–3** · Tag: 🛡️ **Portfolio-Defense**
-> Split out of the [Week of 09-14 hub](../2026-09-14_coursework-journal.md). Companion:
-> [Module 4 — Docker + REST API app](./Module4_docker-api-app.md) · index: [coursework-README](../coursework-README.md)
+> Split out of the [Week of 09-14 hub](../../2026-09-14_coursework-synthesis.md). Companion:
+> [Module 4 — Docker + REST API app](../docker/Module4_docker-api-app.md) · index: [coursework-README](../../_legacy/coursework-README-v1.md)
 
 # CIS 9760 Modules 2–3 — AWS foundations + Linux terminal + Docker on a cloud server
 

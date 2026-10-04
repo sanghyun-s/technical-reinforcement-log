@@ -6,8 +6,8 @@ summary, and the promoted interview lines.
 
 | Course | Tag | This week | Depth |
 |---|---|---|---|
-| **CIS 9760 — Big Data Technologies** | 🛡️ **Portfolio-Defense** | AWS (budget, S3, EC2) + Linux terminal + Docker on a cloud server | [cis9760/Module2-3_AWS-terminal](./cis9760/Module2-3_AWS-terminal.md) |
-| **STA 9750 — Software Tools for Reproducible Research** | 📚 **General Coursework** | R (vectors, functions, control flow) + Markdown/Quarto + git | [sta9750/Lecture2-3_R-Quarto](./sta9750/Lecture2-3_R-Quarto.md) |
+| **CIS 9760 — Big Data Technologies** | 🛡️ **Portfolio-Defense** | AWS (budget, S3, EC2) + Linux terminal + Docker on a cloud server | [cis9760/Module2-3_AWS-terminal](./cloud-data-systems/aws/Module2-3_AWS-terminal.md) |
+| **STA 9750 — Software Tools for Reproducible Research** | 📚 **General Coursework** | R (vectors, functions, control flow) + Markdown/Quarto + git | [sta9750/Lecture2-3_R-Quarto](./r-analytics/Lecture2-3_R-Quarto.md) |
 
 ---
 

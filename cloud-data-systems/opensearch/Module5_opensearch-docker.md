@@ -1,5 +1,5 @@
 > **Coursework · CIS 9760 Big Data Technologies · Module 5 — OpenSearch + Dockerized Python client** · Tag: 🛡️ **Portfolio-Defense**
-> Companion: [Module2-3_AWS-terminal](./Module2-3_AWS-terminal.md) · [Module4_docker-api-app](./Module4_docker-api-app.md) · index: [coursework-README](../coursework-README.md)
+> Companion: [Module2-3_AWS-terminal](../aws/Module2-3_AWS-terminal.md) · [Module4_docker-api-app](../docker/Module4_docker-api-app.md) · index: [coursework-README](../../_legacy/coursework-README-v1.md)
 > *Converted from the original `.docx` to clean markdown; all technical content, the five debugging
 > issues, and the conclusions preserved.*
 

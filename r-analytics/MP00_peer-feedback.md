@@ -1,5 +1,5 @@
 > **Coursework · STA 9750 Software Tools for Reproducible Research · MP#00 + Peer Review** · Tag: 📚 **General Coursework** (with 🔁 transferable bits)
-> Companion: [Lecture2-3_R-Quarto](./Lecture2-3_R-Quarto.md) · index: [coursework-README](../coursework-README.md)
+> Companion: [Lecture2-3_R-Quarto](./Lecture2-3_R-Quarto.md) · index: [coursework-README](../_legacy/coursework-README-v1.md)
 > *🔁 Note: the render-snapshot ↔ Docker-image-snapshot synthesis in Part 4 is genuinely
 > portfolio-relevant (the same reproducibility principle as §12.2). Original journal below,
 > authored/submitted around 29 Sep 2026 — preserved verbatim.*

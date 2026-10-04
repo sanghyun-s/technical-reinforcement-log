@@ -1,5 +1,5 @@
 > **Coursework · STA 9750 · Lab 4 — Single-table verbs, NA, group-aware filtering** · Tag: 📚 **General Coursework** (with 🔁 transferable bits)
-> Companion: [Lecture2-3_R-Quarto](./Lecture2-3_R-Quarto.md) · [Week5_base-R-grammar](./Week5_base-R-grammar.md) · index: [coursework-README](../coursework-README.md)
+> Companion: [Lecture2-3_R-Quarto](./Lecture2-3_R-Quarto.md) · [Week5_base-R-grammar](./Week5_base-R-grammar.md) · index: [coursework-README](../_legacy/coursework-README-v1.md)
 > *🔁 Transferable: R's NA/contagion model, `mean`-of-a-logical-is-a-rate, and "verify by
 > relationship not appearance" all carry straight to pandas/SQL. Original journal below, verbatim.*
 
