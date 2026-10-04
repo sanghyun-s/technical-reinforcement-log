@@ -1,7 +1,7 @@
 > **Coursework track · CIS 9760 Big Data Technologies · Module 4**
 > Tag: 🛡️ **Portfolio-Defense** — containerization, Dockerfile authoring, REST-API integration,
 > and secret management via environment variables directly patch the §12.2 deployment/prototype→
-> production gap. Companion index: [coursework-README](./../coursework-README.md).
+> production gap. Companion index: [coursework-README](../../_legacy/coursework-README-v1.md).
 > *Original journal below, authored and submitted 29 Sep 2026 — preserved verbatim.*
 
 ---
