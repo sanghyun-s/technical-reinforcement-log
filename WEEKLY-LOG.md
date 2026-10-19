@@ -8,6 +8,16 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-10-13
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 10-18 | Python | BUS 9430 — NYC EMS dispatch modeling (pandas + sklearn logistic regression) | Applied project | New | `class_weight="balanced"` inflates predicted probabilities — summing them for an expected-count is meaningless; 4-bug postmortem | 🔁 candidate |
+| 10-16 | R-analytics | STA 9750 MP #01 — Netflix end-to-end EDA → strategy memo (skim/dplyr/gt/ggplot/Quarto, published site) | Independent analysis | New | Long-tail viewing (no title >1.4%); global-availability over-indexes on hours = association not causation; headline watch-hours not the 99%-missing views | **Yes** |
+| 10-16 | R-analytics | STA 9750 PA #06 — ggplot2 "lots of plots" + quiz | Coursework | New | aesthetic (mapping) vs scale (which colours); `color`=boundary / `fill`=interior; weighted share = sum÷sum not mean-of-% | Candidate |
+| 10-14 | Cloud/Data Systems | CIS 9760 Module 6 — PySpark on AWS EMR (+ HDFS/MapReduce concepts) | Coursework | New | Spark lazy transformations vs triggering actions (DAG); HDFS=storage/Spark=processing; write-once-read-many = S3 model | 🛡️ candidate |
+| 10-16 | Cloud/Data Systems | CIS 9760 midterm review (Modules 4–6: Docker/OpenSearch/Spark) | Review | New | VM virtualizes hardware / container shares the kernel; match-the-tool-to-the-workload | — |
+
 ## Week of 2026-10-01
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |

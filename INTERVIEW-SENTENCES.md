@@ -68,6 +68,16 @@ with a tracked unaided rate and a spaced-repetition retention log, not an assert
 
 ---
 
+## Analytics / R / cloud (V2)
+
+| Sentence | Source | Tier | Survives? |
+|---|---|---|---|
+| No single Netflix title dominates viewing — the top title in any half-year is only 0.9–1.4% of watch hours and the Top 10 is ~6%; the business story is a long tail, not a few megahits. | MP#01 | 1 | Yes |
+| Globally-available titles are 35% of the catalog but 52% of watch hours — they over-index on viewing. I present that as **association, not causation**: cross-border-designed content likely correlates with broad-appeal production, and the data can't separate the two. | MP#01 | 1 | Yes |
+| I headline watch-hours over views because `views` is ~99% missing in one period — a view-based metric there is a period artifact dressed as a trend. A missing row isn't a zero. | MP#01 | 1 | Yes |
+| Spark's key idea is lazy evaluation: transformations just build a DAG and nothing runs until an action like `count()` triggers it — so filters chain cheaply and the *action* is where cost and bugs show up. | CIS9760 M6 | 1 | Yes (basic) |
+| `class_weight="balanced"` deliberately distorts a logistic model's intercept to behave as if classes were 50/50, which inflates every predicted probability — so summing those probabilities to get an expected count is meaningless. | BUS 9430 | 1 | Yes |
+
 ## Not yet — sentences I can say but not defend
 
 The staging area. Moving a line **out** is progress.
