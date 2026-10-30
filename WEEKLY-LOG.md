@@ -8,6 +8,12 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-10-20
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 10-21 | R-analytics | STA 9750 Week 7 — spatial viz (sf/geom_sf, choropleth vs cartogram), live Census ACS API, gganimate, ggiraph interactivity, NYC hex maps | Coursework (cold) | New | Map the rate not the count (denominator); cartogram area encodes population so it stops fighting the color/rate; R restart wipes the object-dependency chain — rebuild top-to-bottom | **Yes** |
+
 ## Week of 2026-10-13
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
