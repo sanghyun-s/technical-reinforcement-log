@@ -8,6 +8,13 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-11-01
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 11-01 | Coding drills (Python) | LC #2 Add Two Numbers · #678 Valid Parenthesis String · #3 Longest Substring | New (3 Medium) | New | Dummy-head + carry loop; greedy [cmin,cmax] interval for `*` wildcard (O(1) space); canonical sliding window | Candidates |
+| 11-01 | Coding drills (SQL) | LC #1693 Daily Leads · #1741 Total Time · #3278 Candidates for DS II | New (2 Easy, 1 Medium) | New | **First LeetCode SQL**; COUNT(DISTINCT) for grain; SUM of a derived col; 3278 = CTE+CASE-in-SUM+HAVING-all-skills+ROW_NUMBER tie-break (DataCamp course applied cold) | SQL candidates |
+
 ## Week of 2026-10-27
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
