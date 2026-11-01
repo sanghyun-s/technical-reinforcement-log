@@ -5,7 +5,7 @@ patterns — the mentor's method made concrete: *understand it once (with help i
 rebuild it the next day with less help.*
 
 The goal is not to inflate a problem count. It's to prove I can **return to a pattern and
-rebuild it.** Detailed writeups live in [`leetcode/archive/`](./leetcode/archive/); this file
+rebuild it.** Detailed writeups live in [`archive/`](./archive/); this file
 is the visible record of coming back to them.
 
 ---

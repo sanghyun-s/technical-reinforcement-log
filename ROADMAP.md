@@ -26,6 +26,7 @@ A week of fewer, deeper tasks beats a week of ticking boxes. Pick by what a targ
 - Long Coursera certificates (IBM / Meta / Microsoft PL-300) — time-heavy, overlap MSBA+DataCamp
 - Additional agentic-AI courses · additional prototype-building missions
 - Audit/assurance simulations unless I actively target that specialty
+- **LeetCode Explore structured courses** (<https://leetcode.com/explore/>) — a DataCamp-style curriculum option for drills; start only if I want structure over ad-hoc problem selection (see DRILLS.md)
 
 ---
 
@@ -52,7 +53,7 @@ Deloitte Data Analytics (NEXT) · Forage: Excel Skills for Business Finance (NEX
 Advisory / BCG X Data Science / Datacom Automation-AI (WHEN) · EY/PwC audit (PARKED unless targeted)
 **Coursera (PARKED default) →** Microsoft Power BI Data Analyst (PL-300 adjacent) · IBM Data
 Analytics · Meta Data Analyst — take at most one, only if strategically justified
-**Coding / Python (ongoing) →** LeetCode cold Easies + selected Mediums · Practicing Coding
+**Coding drills (ongoing, see DRILLS.md) →** LeetCode in Python (primary) + SQL + R (balancing up), Java occasional; ≥4/wk, commit 2×/wk · Practicing Coding
 Interview Questions in Python (DC, WHEN) · Finish Testing in Python (WHEN, closes Tier A)
 
 ---
