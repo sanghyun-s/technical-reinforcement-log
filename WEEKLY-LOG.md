@@ -12,6 +12,12 @@ here first, so the most recent week is visible without opening a single folder.
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
 |---|---|---|---|---|---|---|
+| 10-28 | Python | **Testing in Python — COMPLETE** (Ch 1 redrilled; Ch 2 fixtures/autouse/yield-teardown; Ch 3 test types; Ch 4 unittest) | Course-guided | Redrill + completion | Closes last Tier-A gap + last ❌ in the active-review doc; teardown = don't leak state between tests; pytest vs unittest | **Yes (2)** |
+
+## Week of 2026-10-27
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
 | 10-25 | SQL | DataCamp "Data Manipulation in SQL" — CASE, subqueries (basic/nested/correlated), CTEs, window functions | Course-guided | New | Filter *every* subquery not just the outer; CTE over nested subquery for readability; window fn = group stat without collapsing rows (PARTITION BY + frames) | SQL candidates |
 
 ## Week of 2026-10-20

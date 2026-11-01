@@ -30,7 +30,7 @@ topic is structured six ways:
 | **1 — Intermediate Python for Developers** | Full (6 topics + recap) | ✅ Confirmed |
 | **2 — Data Structures & Algorithms in Python** | Full (Ch 1–4, 12 topics + recap) | ✅ Confirmed |
 | **3 — Object-Oriented Programming in Python** | **Chapter 1 only** | ✅ Ch 1 · 🔁 Ch 2–4 recovered |
-| **4 — Introduction to Testing in Python** | **Absent** | 🔁 Ch 1 recovered · ❌ Ch 2+ missing |
+| **4 — Introduction to Testing in Python** | Full (Ch 1–4) | ✅ **Complete** (finished 2026-10-28; see `python/courses/04-introduction-to-testing.md`) |
 
 > The two source files explicitly stop at OOP Chapter 1 (the note itself says Chapters 2–4 must
 > be recovered from separate originals). OOP Ch 2–4 and Testing Ch 1 below are recovered from my
@@ -580,15 +580,18 @@ if condition True — e.g. Python version, or a condition string like `'day_of_w
 "pytest asserts against specified behavior + `pytest.raises` for exceptions," which promoted that
 line out of the reinforcement log's "Not yet" bank.
 
-## Chapters 2–4  ❌ Missing from available materials
+## Chapters 2–4  ✅ Completed 2026-10-28 (redrilled from the start)
 
-**Not documented anywhere I've provided.** Expected topics (named as "still unclear / later
-chapters" in my own Course-4 write-up, **not** as completed content): **fixtures**
-(`@pytest.fixture`, setup/teardown), **parametrization** (`@pytest.mark.parametrize`), and
-**mocking** (isolating a unit from its dependencies). These are what deepen "I write asserts" into
-"I test units in isolation." **Do not treat as learned.** Recover from the original DataCamp course
-when I resume it, then fill this section.
+**No longer missing.** The full course was completed and documented in
+`python/courses/04-introduction-to-testing.md`. Summary of what Ch 2–4 added:
+- **Ch 2 fixtures:** `@pytest.fixture`, chain requests (one fixture requesting another),
+  `autouse=True`, and `yield`-based teardown (the generator/lazy-eval connection).
+- **Ch 3 testing types:** unit vs feature vs integration vs performance (`pytest-benchmark`).
+- **Ch 4 `unittest`:** built-in OOP framework — `TestCase` classes, `assertEqual`/`assertRaises`
+  methods, `setUp`/`tearDown` (capital U/D gotcha), CLI flags `-k`/`-f`/`-c`/`-v`.
 
+This closes the last ❌ in this document and the last open Tier-A course. The "I verify AI code"
+interview line is now **thorough**, not foundational.
 ---
 
 # Knowledge-gap register (for future review sessions)
@@ -597,7 +600,8 @@ Separated by confidence, per the four-way legend.
 
 ### ✅ Confirmed from source notes — solid, drill for retention
 Course 1 (all 6 topics + recall questions) · Course 2 (all 12 topics + recall questions) ·
-OOP Chapter 1 (exploration, class/object, attributes/methods, `self`, `__init__`+validation, Point).
+OOP Chapter 1 (exploration, class/object, attributes/methods, `self`, `__init__`+validation, Point) ·
+**Testing in Python — all 4 chapters (completed 2026-10-28).**
 
 ### 🔁 Recovered from another provided study record — verify against original
 OOP Ch 2 (class attributes, shadowing, `@classmethod`, inheritance, `super()`) · OOP Ch 3 (`__eq__`) ·
@@ -613,9 +617,9 @@ OOP Ch 4 (Liskov, `_internal`, `@property`) · Testing Ch 1 (assert, `pytest.rai
 - OOP: `@property`/setter with validation; the Liskov Rectangle/Square explanation.
 
 ### ❌ Missing from available materials — cannot reconstruct honestly
-- **Testing Chapters 2–4**: fixtures, parametrization, mocking. Not in any provided material.
-  Recover from the original DataCamp course; until then, not claimable as learned.
-- Any Course-4 content beyond Chapter 1.
+- *(None outstanding.)* Testing Chapters 2–4 were completed on 2026-10-28 and moved to ✅ above.
+  Note: this course taught fixtures/teardown and the four test types; **mocking/parametrize were
+  lighter than expected** — a fair target for a future dedicated pass if a JD needs them.
 
 ---
 
