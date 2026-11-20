@@ -8,6 +8,21 @@ here first, so the most recent week is visible without opening a single folder.
 
 ---
 
+## Week of 2026-11-17
+
+*Catch-up batch after a ~2.5-week gap — primary Mac broke, environment rebuilt on Windows+WSL2.
+Some in-class dates below are approximate (marked ~); the work is real, the exact day isn't always.*
+
+| Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |
+|---|---|---|---|---|---|---|
+| 11-17→19 | Portfolio-defense / env-ops | **Windows 11 + WSL2 rebuild** — reconstructed PREPARE/CASSIA/LUCENT on a fresh OS (WSL2 Ubuntu 26.04, uv, nvm/Node 22, 3 Python contexts) | Applied project | New | **A git clone restores source, not state** — not venvs, node_modules, .env, SQLite, or ChromaDB; debug by layer; "installed" ≠ "ran" | **Yes** |
+| ~11-14 | R-analytics | **STA 9750 MP#02** — transit emissions, NTD × EIA, httr2/rvest scrape → join → CO₂ model → tiered awards (`mp02.qmd`, 2,572 lines) | Independent analysis | New | Aggregate-before-join + **assert national UPT unchanged**; normalize by passenger-mile so MTA NYC ranks *clean*; biogenic-adjustment breaks a tie | **Yes (2)** |
+| ~11-12 | R-analytics | STA 9750 Week 11 "HTML in R" — rvest CSS selectors + stringr/regex validation | Coursework (cold) | New | `rvest` selects *where*, `stringr` searches *within*; anchored regex — `[0-9-]{7,12}` matches a row of dashes; format ≠ validity | Candidate |
+| ~11-10 | Cloud/Data Systems | **CIS 9760 Project 1** — IMDB analysis in PySpark (S3 → 4-table star schema → joins → charts) | Applied project | New | `split`+`explode` genre assoc table; filter `\N` before countDistinct; **aggregate then `.collect()` the small result**, never the full dataset | **Yes (2)** |
+| ~11-10 | Cloud/Data Systems | CIS 9760 Module 11 — streaming: Kinesis → Firehose → S3, producer on Lambda | Coursework (hands-on) | New | Event-driven Lambda vs always-on EC2; IAM execution role + raised timeout/memory; Firehose buffer = latency/file-count trade | 🛡️ candidate |
+| ~11-07 | Portfolio-defense / Cloud | CIS 9760 guest-speaker event (AWS specialist) — Bedrock AgentCore → split into a portfolio-pipeline/Gen-2 reference + an AWS-service note | Documentation study | New | Prototype→application = traceability + guardrails + **evaluation**; describe projects by *problem/judgment*, not tech; AgentCore = managed run+govern infra | 🛡️ candidate |
+| ~11-10 | Python | BUS 9430 — consolidated EMS runbook (data-prep + modeling, 4-bug postmortem reproduced on test data) | Applied project | Deepened | `clone(prep)` — Pipeline fits steps in place, so one shared preprocessor corrupts three pipelines; citywide (not per-cell) late cutoff | **Yes** |
+
 ## Week of 2026-11-01
 
 | Date | Track | Activity | Mode | Repetition? | Takeaway | Interview line? |

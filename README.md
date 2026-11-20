@@ -15,6 +15,19 @@ Not positioning as a pure data scientist, AI engineer, software engineer, or CPA
 
 ---
 
+## 📣 Now running two machines as a duo (2026-11)
+
+My primary Mac broke (10+ days at the Genius Bar), so I rebuilt the entire development environment on
+a **Windows 11 + WSL2** laptop — and I'm keeping it. I now run the two as an **OS/hardware duo**: the
+**Mac stays primary**, and the **Windows machine is set up and in sync**, unlocking tools the Mac
+can't run natively (MS Access, Power BI Desktop) while WSL2 gives a true Linux layer beside them.
+
+The rebuild was its own proof: reconstructing PREPARE, CASSIA, and LUCENT from a bare OS is exactly
+the **cold-reproducibility** claim this repo exists to support — the broken Mac became the test, not
+a setback. Full journal: [`portfolio-defense/windows-wsl2-reconstruction_journal.md`](./portfolio-defense/windows-wsl2-reconstruction_journal.md).
+
+---
+
 ## Career targets this log supports
 
 - **Primary — Data / BI / Business Analytics:** Data Analyst · BI Analyst · Reporting / Operations /
@@ -37,11 +50,14 @@ Baruch database assignment both land in `sql/`; the file says where it came from
 
 ```
 sql/  python/(courses, coding-drills)  bi/(power-bi, tableau, excel-power-query)
-r-analytics/  cloud-data-systems/(aws, docker, opensearch)
+r-analytics/(projects, drills)  cloud-data-systems/(aws, docker, opensearch, spark-emr)
 ai-systems/(fastapi, rag-text-to-sql, ml-anomaly-detection, evals)
 applied-practice/(forage, handshake, end-to-end-analysis)
 portfolio-defense/(prepare, cassia, lucent)   resources/youtube/   _legacy/
 ```
+
+*Environment/ops logs (e.g. the Windows+WSL2 rebuild) live in `portfolio-defense/` — reproducing the
+apps cold is a defense artifact, not a separate competency.*
 
 Core files: **WEEKLY-LOG** (weekly roll-up) · **LEARNING-DASHBOARD** (skill matrix) ·
 **INTERVIEW-SENTENCES** (defensible lines) · **ROADMAP** (NOW/NEXT/WHEN-NEEDED/PARKED + phases) ·
