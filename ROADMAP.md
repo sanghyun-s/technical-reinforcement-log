@@ -67,5 +67,36 @@ Interview Questions in Python (DC, WHEN) · Finish Testing in Python (WHEN, clos
 | **3 — Hiring-focused reinforcement** | Spring 2027 | Narrow to weaknesses real JDs/screens expose; study time drops | Role-specific SQL/BI/pandas drills; maybe one targeted credential (e.g. PL-300) |
 | **4 — Transition to practice** | Summer 2027 | Job readiness over broad learning; few new courses | Applying, not accumulating |
 
+---
+
+## Applied directions (late 2026 → first half 2027) — exploratory
+
+*Potential directions to pull from — **not** commitments, deadlines, or a required project count.
+Which applies, and when, bends around the career-first reality below. Nothing here is evidence until
+it exists.*
+
+**Status key:** ✅ Completed (has evidence) · 🔄 In progress (genuinely started, has records) ·
+🔭 Planned / exploring (not yet begun; scope may change).
+
+- 🔭 **Independent end-to-end analysis** — short, self-chosen projects *separate from coursework*
+  (question → public/permitted data → clean → analyze → visualize → interpret limits → reproducible
+  write-up). One is enough to begin → `applied-practice/end-to-end-analysis/`.
+  *Coursework end-to-end analyses already exist (MP#01, MP#02); an independent one does not yet.*
+- 🔭 **BI dashboards** — Power BI *or* Tableau *or* Excel, chosen per project. The goal is
+  communicating a finding, not collecting tools — **not** both platforms at once.
+- 🔄 **Continued Python / SQL / Excel / BI fundamentals** — ongoing, but *applying* what I learn
+  matters more than course or problem counts.
+- 🔭 **Company-based simulations** — selected Forage / Handshake AI Studio activities. These are
+  **educational simulations**, documented by what was actually completed — never employment or internships.
+- 🔄 / 🔭 **Accounting Meets AI — selected improvements** — small Gen-1 patches and better
+  validation/error handling (🔄 where records support it); **Gen-2 is preliminary R&D only** (🔭), not
+  an active or completed project. AMAI stays a distinct initiative this log references, not absorbs.
+
+*Career-first: with graduation in May 2027 and Summer-2027 entry-level the priority, Spring 2027 goes
+to applications, interview prep, coursework, and OPT admin. A few well-documented activities beat a
+large roadmap that can't be maintained.*
+
+---
+
 *Context (Oct 2026): the CPT pause means pre-graduation employment is off the table before May 2027,
 so Phases 2–3 get a longer runway to build real independence before the post-graduation OPT window.*

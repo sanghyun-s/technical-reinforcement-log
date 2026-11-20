@@ -59,6 +59,11 @@ portfolio-defense/(prepare, cassia, lucent)   resources/youtube/   _legacy/
 *Environment/ops logs (e.g. the Windows+WSL2 rebuild) live in `portfolio-defense/` — reproducing the
 apps cold is a defense artifact, not a separate competency.*
 
+*`portfolio-defense/` references my separate **Accounting Meets AI** initiative (PREPARE, CASSIA,
+LUCENT) — AI-assisted learning prototypes, **not** commercial deployments or systems built for an
+employer. This log references and learns from that work; it does not hold its full development
+history, and Gen-2 is exploratory R&D, not an active or completed project.*
+
 Core files: **WEEKLY-LOG** (weekly roll-up) · **LEARNING-DASHBOARD** (skill matrix) ·
 **INTERVIEW-SENTENCES** (defensible lines) · **ROADMAP** (NOW/NEXT/WHEN-NEEDED/PARKED + phases) ·
 **ACTIVITY-TEMPLATE** (the one source-neutral log format).
@@ -79,7 +84,22 @@ must be able to do independently."* That's a strength, stated plainly — not an
 
 ---
 
+## From record to communication (GitHub → LinkedIn, 2027)
+
+This repository is also a long-term source for professional communication. From 2027 I plan to share
+*selected* work on LinkedIn — not every activity, and on no fixed schedule. The division of labor:
+**GitHub** holds the technical record (methods, results, limitations); **LinkedIn** communicates the
+business problem, the approach, the main finding, and what I learned. A post happens when an activity
+produces something genuinely worth sharing — progress, not announcements.
+
+---
+
 ## The longitudinal story (see ROADMAP for detail)
+
+**It began narrow and grew.** The log started as straightforward reinforcement — DataCamp courses,
+LeetCode Python, SQL and Python fundamentals, coding drills. Over time it expanded into graduate
+coursework, applied data analysis, R and databases, BI tools, employer simulations, and technical
+reflection. That expansion is the point: the original purpose is preserved, not replaced.
 
 - **Phase 1 — Summer 2026:** rebuilt the coding fundamentals behind an AI-assisted portfolio
   (Python, DSA, testing, portfolio defense). *Now largely history — preserved in `_legacy/`.*
